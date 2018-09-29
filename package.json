@@ -1,0 +1,33 @@
+{
+  "name": "cis411_lab0",
+  "version": "0.0.1",
+  "description": "GitHub and CircleCI building a simple GraphQL service",
+  "main": "server.js",
+  "scripts": {
+    "run": "node server.js",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangollama/cis411_lab0.git"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "circleci",
+    "graphql"
+  ],
+  "author": "Joel Worrall <joel@joelworrall.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tangollama/cis411_lab0/issues"
+  },
+  "homepage": "https://github.com/tangollama/cis411_lab0#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2",
+    "lokijs": "^1.5.5",
+    "uuid": "^3.3.2"
+  }
+}
