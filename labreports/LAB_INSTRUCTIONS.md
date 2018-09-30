@@ -8,7 +8,7 @@ Lab reports will be submitted by generating a markdown file in the labreports di
 * For the purposes of clear communication, you may base your lab report off of the template found in [LAB.md](LAB.md), but you're also free, welcome, and encouraged to get more creative.
 * If you are unfamiliar with markdown, I recommend checking [1000 places on the Interwebs](http://lmgtfy.com/?q=learn+markdown) that will help you close that gap.
 
-# Step 0: Create a GitHub account
+# Step 0: Create a GitHub account++
 1. If you don't have a GitHub account already, [create one](https://github.com/join). If you do, **record the name of your handle in your lab report** and **record a link to one repository you either follow or star**.
 2. If you don't already have _git_ installed on your development machine, [do so](https://git-scm.com/downloads).
 3. Install a text editor or some sort of application for local development. Lately, I'm partial to [Visual Studio Code](https://code.visualstudio.com/) and my instructions assume it's use, but you're welcome to diviate. _Each one should choose their own sword, etc. etc._
