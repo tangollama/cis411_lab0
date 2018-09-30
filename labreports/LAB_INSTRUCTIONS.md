@@ -49,7 +49,7 @@ mutation {
 5. As you make additional changes to the lab report, commit and push at least one more change to the branch.
 6. **Add the output of your git commit log** for your feature branch to your lab report ```git log  --oneline```.
 
-# Step 4: Create a Continuous Integration configuration
+# Step 4: Setup a Continuous Integration configuration
 1. [Signup for CircleCI](https://circleci.com/signup/) with your GitHub account.
 2. Login to CircleCI and add your project to your account (ex. https://circleci.com/add-projects/gh/[YOUR GITHUB HANDLE]) by clicking _Add Project_.
 3. Follow the setup instructions, including creating the .circleci directory and adding the default config.yml file.
@@ -62,19 +62,24 @@ mutation {
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
-# Step 5: Merging your feature branch
+# Step 5: Merging the feature branch
 1. Commit your changes to your feature branch ```git commit -a -m "your commit message```.
 2. Switch to the master branch ```git checkout master```.
 3. Merge the changes from your feature branch ```git merge labreport```.
 4. **Add the output of your git commit log** from master to your lab report ```git log  --oneline```.
 5. Validate that your CircleCI build is running doing so successfully, **by grabbing a screenshot of the _Jobs_ list in CircleCI and including it in your report**.
 
-# Step 6: Submitting your work through a Pull Request
+# Step 6: Submitting a Pull Request
 Once you've completed your report markdown, have ensured that your forked repository is successfully running in CircleCI, and have committed all your changes to your (primary) master branch, initiate a Pull Request in GitHub to submit your Lab Report.
 1. Navigate to the root of your forked repository (ex. https://github.com/YOURHANDLE/cis411_lab0).
 2. Click the _New pull request_ button.
 3. Choose the base fork _tangollama/cis411_lab0_ is the target and that your fully updated _master_ branch is the source.
 4. Enter a title and description for the Pull Request (PR), **referencing at least one other student in the content via their GitHub handle**, and submit the PR.
 
-# Step 7: Augment the core project
-For the purposes of gaining 10% or more extra credit on the assignment, add one or more unit tests to the core assignment project. **Note this work in your lab report** by linking to either the PR or specific commit as recorded in GitHub.
+# Step 7: [EXTRA CREDIT] Augment the core project
+For the purposes of gaining 10%, 20% _or even more extra credit_ on the assignment, perform any of the following:
+1. Add one or more unit tests to the core assignment project. 
+2. Configure the CircleCI config.yml to automatically build a Docker image of the project.
+3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
+
+**Note this work in your lab report** by submitting it in your PR and linking to either the PR or the specific commit as recorded in GitHub in your lab report.
