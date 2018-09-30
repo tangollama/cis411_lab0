@@ -52,8 +52,12 @@ mutation {
 # Step 4: Create a Continuous Integration configuration
 1. [Signup for CircleCI](https://circleci.com/signup/) with your GitHub account.
 2. Login to CircleCI and add your project to your account (ex. https://circleci.com/add-projects/gh/[YOUR GITHUB HANDLE]) by clicking _Add Project_.
-3. Follow the setup instructions
+3. Follow the setup instructions, including creating the .circleci directory and adding the default config.yml file.
 ![CircleCI setup](../assets/circleci_setup.png "CircleCI Setup")
+- Create a directory name .circleci in your project ```mkdir .circleci```.
+- Add a file to that directory named config.yml ```code .circleci/config.yml```.
+- Copy the content for the setup instructions into config.yml.
+4. **Document in your lab report** what your .circleci/config.yml is doing in as much detail as you can determine. A diagram is not required but is highlt encouraged.
 
 
 # Step X: Merging your feature branch
@@ -61,6 +65,7 @@ mutation {
 2. Switch to the master branch ```git checkout master```.
 3. Merge the changes from your feature branch ```git merge labreport```.
 4. **Add the output of your git commit log** from master to your lab report ```git log  --oneline```.
+5. Validate that your CircleCI build is running doing so successfully, by grabbing a screenshot of the _Jobs_ log in CircleCI and including it in your report.
 
 # Step X: Submitting your work through a Pull Request
 
