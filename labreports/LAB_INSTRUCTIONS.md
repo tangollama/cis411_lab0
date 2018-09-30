@@ -24,8 +24,8 @@ Lab reports will be submitted by generating a markdown file in the labreports di
 2. Open the terminal or command line interface on your development machine, navigate to your chosen working directory, and execute the following command: ```git clone [YOUR COPIED GITHUB CLONE REFERENCE]```.
 3. Navigate to that directory ```cd cis411_lab0```.
 4. Run ```npm install``` and watch the magic happen.
-5. Run ```npm start``` and navigate to http://localhost:4000/graphql
-6. Run the following GraphQL mutation in GraphiQL and **record the response**
+5. Run ```npm start``` and navigate to http://localhost:4000/graphql.
+6. Run the following GraphQL mutation in GraphiQL and **record the response**.
 ```
 mutation {
   mutateAccount(input: {
@@ -39,3 +39,28 @@ mutation {
   }
 }
 ```
+
+# Step 3: Creating a feature branch
+[Branching and merging](https://www.atlassian.com/agile/software-development/branching) is a common tactic used in change management and feature development. We're going to use a branch (and eventually a merge) to build our lab report.
+1. Create the branch ```git branch -c labreport```.
+2. Create a lab report mardown file (ex. ```cp labreports/LAB.md labreports/LAB_[GITHUB USERNAME].md``` ).
+3. Add the file to your branch ```git commit -a -m "your commit and reference @tangollama in the message"```.
+4. Push the change to GitHub ```git push -u origin labreport```.
+5. As you make additional changes to the lab report, commit and push at least one more change to the branch.
+6. **Add the output of your git commit log** for your feature branch to your lab report ```git log  --oneline```.
+
+# Step 4: Create a Continuous Integration configuration
+1. [Signup for CircleCI](https://circleci.com/signup/) with your GitHub account.
+2. Login to CircleCI and add your project to your account (ex. https://circleci.com/add-projects/gh/[YOUR GITHUB HANDLE]) by clicking _Add Project_.
+3. Follow the setup instructions
+![CircleCI setup](../assets/circleci_setup.png "CircleCI Setup")
+
+
+# Step X: Merging your feature branch
+1. Commit your changes to your feature branch ```git commit -a -m "your commit message```.
+2. Switch to the master branch ```git checkout master```.
+3. Merge the changes from your feature branch ```git merge labreport```.
+4. **Add the output of your git commit log** from master to your lab report ```git log  --oneline```.
+
+# Step X: Submitting your work through a Pull Request
+
