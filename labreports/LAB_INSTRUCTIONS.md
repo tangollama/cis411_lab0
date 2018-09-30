@@ -57,15 +57,24 @@ mutation {
 - Create a directory name .circleci in your project ```mkdir .circleci```.
 - Add a file to that directory named config.yml ```code .circleci/config.yml```.
 - Copy the content for the setup instructions into config.yml.
-4. **Document in your lab report** what your .circleci/config.yml is doing in as much detail as you can determine. A diagram is not required but is highlt encouraged.
+4. **Document in your lab report** what your .circleci/config.yml is doing in as much detail as you can determine. A diagram is not required but is highlt encouraged. **Additionally, answer the following questions.**
+- What do the various sections on the config file do?
+- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
-
-# Step X: Merging your feature branch
+# Step 5: Merging your feature branch
 1. Commit your changes to your feature branch ```git commit -a -m "your commit message```.
 2. Switch to the master branch ```git checkout master```.
 3. Merge the changes from your feature branch ```git merge labreport```.
 4. **Add the output of your git commit log** from master to your lab report ```git log  --oneline```.
-5. Validate that your CircleCI build is running doing so successfully, by grabbing a screenshot of the _Jobs_ log in CircleCI and including it in your report.
+5. Validate that your CircleCI build is running doing so successfully, **by grabbing a screenshot of the _Jobs_ list in CircleCI and including it in your report**.
 
-# Step X: Submitting your work through a Pull Request
+# Step 6: Submitting your work through a Pull Request
+Once you've completed your report markdown, have ensured that your forked repository is successfully running in CircleCI, and have committed all your changes to your (primary) master branch, initiate a Pull Request in GitHub to submit your Lab Report.
+1. Navigate to the root of your forked repository (ex. https://github.com/YOURHANDLE/cis411_lab0).
+2. Click the _New pull request_ button.
+3. Choose the base fork _tangollama/cis411_lab0_ is the target and that your fully updated _master_ branch is the source.
+4. Enter a title and description for the Pull Request (PR), **referencing at least one other student in the content via their GitHub handle**, and submit the PR.
 
+# Step 7: Augment the core project
+For the purposes of gaining 10% or more extra credit on the assignment, add one or more unit tests to the core assignment project. **Note this work in your lab report** by linking to either the PR or specific commit as recorded in GitHub.
