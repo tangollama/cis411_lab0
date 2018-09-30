@@ -12,6 +12,7 @@ Lab reports will be submitted by generating a markdown file in the labreports di
 1. If you don't have a GitHub account already, [create one](https://github.com/join). If you do, **record the name of your handle in your lab report** and **record a link to one repository you either follow or star**.
 2. If you don't already have _git_ installed on your development machine, [do so](https://git-scm.com/downloads).
 3. Install a text editor or some sort of application for local development. Lately, I'm partial to [Visual Studio Code](https://code.visualstudio.com/) and my instructions assume it's use, but you're welcome to diviate. _Each one should choose their own sword, etc. etc._
+4. To run the project in Step 2, you'll need to have [node.js](https://nodejs.org/en/download/) and [npm](https://docs.npmjs.com/cli/install) installed.
 
 # Step 1: Fork this repository
 1. After logging in, navigate to the [root](https://github.com/tangollama/cis411_lab0) of this repository.
