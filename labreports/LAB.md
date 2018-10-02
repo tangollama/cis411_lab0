@@ -1,4 +1,4 @@
-# Lab Report Template for CIS4011_Lab0
+# Lab Report Template for CIS411_Lab0
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
 Name: YOUR NAME<br/>
