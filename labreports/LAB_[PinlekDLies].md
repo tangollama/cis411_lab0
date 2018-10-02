@@ -1,8 +1,8 @@
 # Lab Report Template for CIS411_Lab0
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
-Name: YOUR NAME<br/>
-GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
+Name: Andrew Hoffman<br/>
+GitHub: [YOUR_HANDLE](https://github.com/PinlekDLies)<br/>
 
 # Step 1: Fork this repository
 - The URL of my forked repository
@@ -25,7 +25,22 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 # Step 3: Creating a feature branch
 - The output of my git commit log
 ```
-d2ddea5 (HEAD -> master, origin/master, origin/HEAD) Version 0.0.1 of the lab instructions
+Andrew@Andrews_PC MINGW64 ~/cis411_lab0 (labreport)
+$ git log --oneline
+8de391c (HEAD -> labreport, origin/labreport) I love 411 and God please give me extra credit <3 @tangollama
+347bd50 (origin/master, origin/HEAD, master) Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
 ab312fc more progress
 62fb0a5 more progress
 fe1937b more in the lab instructions
@@ -35,6 +50,8 @@ e429c1a lab instructions
 968099e remove test db
 7362cd1 working
 44ce6ae Initial commit
+
+
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
 
