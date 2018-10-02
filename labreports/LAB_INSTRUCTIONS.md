@@ -18,7 +18,7 @@ Lab reports will be submitted by generating a markdown file in the labreports di
 1. After logging in, navigate to the [root](https://github.com/tangollama/cis411_lab0) of this repository.
 2. Fork this repository to your personal GitHub account (hint: read the page).
 3. **Record the URL to your forked repo in your lab report.**
-4. **Generate a simple diagram** (in Google Draw or your favorite diagramming tool) that demonstrates the relationship between _this_ repository and my account (tangollama) with your account and your newly forked repository. (i.e. Is this the same thing as a source control branch or is there something unique about a fork in a distributed version control system? _Hint... I'm asking for a reason._)
+4. **Generate a simple diagram** (in Google Draw or your favorite diagramming tool) that demonstrates the relationship between _this_ repository and my account (tangollama) with your account and your newly forked repository. (i.e. Is this the same thing as a source control branch or is there something unique about a fork in a distributed version control system? _Hint... I'm asking for a reason._ If it's helpful, think about the relationship you and another student who is conducting the fork command each has to this respository.)
 
 # Step 2: Clone your forked repository from the command line
 1. Navigate to your forked repository in your GitHub account and copy the reference to your repository in from the <button class="btn btn-sm btn-primary">Clone or Download</button> button.
