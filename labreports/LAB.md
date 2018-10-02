@@ -25,16 +25,7 @@ GitHub: [dv1187](https://github.com/dv1187)<br/>
 # Step 3: Creating a feature branch
 - The output of my git commit log
 ```
-d2ddea5 (HEAD -> master, origin/master, origin/HEAD) Version 0.0.1 of the lab instructions
-ab312fc more progress
-62fb0a5 more progress
-fe1937b more in the lab instructions
-3e807fb first section
-9ae6b83 remove LAB.md
-e429c1a lab instructions
-968099e remove test db
-7362cd1 working
-44ce6ae Initial commit
+
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
 
