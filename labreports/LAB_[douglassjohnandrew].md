@@ -7,7 +7,8 @@ One repository I follow: https://github.com/mgba-emu/mgba
 
 # Step 1: Fork this repository
 - The URL of my forked repository: https://github.com/douglassjohnandrew/cis411_lab0
-- The accompanying diagram of what my fork precisely and conceptually represents
+- The accompanying diagram of what my fork precisely and conceptually represents:
+(https://docs.google.com/drawings/d/122jiH6F1ala05YfrIWkopGfFEqXDX0abaKKnsfKOj20/edit?usp=sharing)
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
