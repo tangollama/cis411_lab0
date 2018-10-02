@@ -14,9 +14,9 @@ GitHub: [Nik-Sloop](https://github.com/nik-sloop)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "d019b9e1-aa1c-4f89-b423-599a12450911",
+      "name": "Nik Sloop",
+      "email": "ns1302@messiah.edu"
     }
   }
 }
