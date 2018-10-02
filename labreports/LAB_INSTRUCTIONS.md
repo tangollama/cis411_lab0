@@ -53,7 +53,7 @@ mutation {
 
 # Step 4: Setup a Continuous Integration configuration
 1. [Signup for CircleCI](https://circleci.com/signup/) with your GitHub account.
-2. Login to CircleCI and add your project to your account (ex. https://circleci.com/add-projects/gh/[YOUR GITHUB HANDLE]) by clicking _Add Project_.
+2. Login to CircleCI and add your project to your account (ex. https://circleci.com/add-projects/gh/[YOUR_GITHUB_HANDLE]) by clicking _Add Project_.
 3. Follow the setup instructions, including creating the .circleci directory and adding the default config.yml file.
 ![CircleCI setup](../assets/circleci_setup.png "CircleCI Setup")
 - Create a directory name .circleci in your project ```mkdir .circleci```.
