@@ -16,9 +16,9 @@ One repository I follow: https://github.com/mgba-emu/mgba
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "7347263e-c7d0-4179-86ad-e084c0a6fdef",
+      "name": "Andrew Douglass",
+      "email": "ad1373@messiah.edu"
     }
   }
 }
