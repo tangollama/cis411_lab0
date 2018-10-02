@@ -14,9 +14,8 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "name": "Joshua Simmons",
+      "email": "joshua.simmons33@gmail.com"
     }
   }
 }
@@ -53,6 +52,6 @@ _Remember to reference at least one other student in the PR content via their Gi
 
 # Step 7: [EXTRA CREDIT] Augment the core project
 PR reference in the report to one of the following:
-1. Add one or more unit tests to the core assignment project. 
+1. Add one or more unit tests to the core assignment project.
 2. Configure the CircleCI config.yml to automatically build a Docker image of the project.
 3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
