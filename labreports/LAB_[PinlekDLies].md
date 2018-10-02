@@ -2,10 +2,10 @@
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
 Name: Andrew Hoffman<br/>
-GitHub: [YOUR_HANDLE](https://github.com/PinlekDLies)<br/>
+GitHub: [PinlekDLies](https://github.com/PinlekDLies)<br/>
 
 # Step 1: Fork this repository
-- The URL of my forked repository
+- https://github.com/PinlekDLies/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
 
 # Step 2: Clone your forked repository from the command line
@@ -14,12 +14,13 @@ GitHub: [YOUR_HANDLE](https://github.com/PinlekDLies)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "48f44890-54fb-4a4e-b9e4-3aae79d65cfc",
+      "name": "Andrew Hoffman",
+      "email": "ah1522@gmail.com"
     }
   }
 }
+
 ```
 
 # Step 3: Creating a feature branch
