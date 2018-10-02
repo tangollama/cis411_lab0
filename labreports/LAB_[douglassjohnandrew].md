@@ -50,7 +50,8 @@ fe1937b more in the lab instructions
 3e807fb first section
 9ae6b83 remove LAB.md
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents
+- The accompanying diagram of what my feature branch precisely and conceptually represents:
+https://docs.google.com/drawings/d/1QmS0ontJWPx0tSodWrGwGioOvMajxzcwGJsc19DMR_4/edit?usp=sharing
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
