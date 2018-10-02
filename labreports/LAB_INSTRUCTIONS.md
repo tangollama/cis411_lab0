@@ -45,11 +45,12 @@ mutation {
 [Branching and merging](https://www.atlassian.com/agile/software-development/branching) is a common tactic used in change management and feature development. We're going to use a branch (and eventually a merge) to build our lab report.
 1. Create the branch ```git  checkout -b labreport```.
 2. Create a lab report mardown file (ex. ```cp labreports/LAB.md labreports/LAB_[GITHUB USERNAME].md``` ).
-3. Add the file to your branch ```git commit -a -m "your commit and reference @tangollama in the message"```.
-4. Push the change to GitHub ```git push -u origin labreport```.
-5. As you make additional changes to the lab report, commit and push at least one more change to the branch.
-6. **Add the output of your git commit log** for your feature branch to your lab report ```git log  --oneline```.
-7. **Generate a simple diagram** that demonstrates the relationship between your master and feature branch in your forked repository.
+3. Add your lab report ```git add *```
+4. Add the file to your branch ```git commit -a -m "your commit and reference @tangollama in the message"```.
+5. Push the change to GitHub ```git push -u origin labreport```.
+6. As you make additional changes to the lab report, commit and push at least one more change to the branch.
+7. **Add the output of your git commit log** for your feature branch to your lab report ```git log  --oneline```.
+8. **Generate a simple diagram** that demonstrates the relationship between your master and feature branch in your forked repository.
 
 # Step 4: Setup a Continuous Integration configuration
 1. [Signup for CircleCI](https://circleci.com/signup/) with your GitHub account.
