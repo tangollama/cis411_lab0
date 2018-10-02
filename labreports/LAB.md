@@ -36,6 +36,7 @@ e429c1a lab instructions
 7362cd1 working
 44ce6ae Initial commit
 ```
+- The accompanying diagram of what my feature branch precisely and conceptually represents
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
