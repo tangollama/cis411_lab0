@@ -49,6 +49,7 @@ mutation {
 4. Push the change to GitHub ```git push -u origin labreport```.
 5. As you make additional changes to the lab report, commit and push at least one more change to the branch.
 6. **Add the output of your git commit log** for your feature branch to your lab report ```git log  --oneline```.
+7. **Generate a simple diagram** that demonstrates the relationship between your master and feature branch in your forked repository.
 
 # Step 4: Setup a Continuous Integration configuration
 1. [Signup for CircleCI](https://circleci.com/signup/) with your GitHub account.
