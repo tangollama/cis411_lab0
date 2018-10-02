@@ -43,7 +43,7 @@ mutation {
 
 # Step 3: Creating a feature branch
 [Branching and merging](https://www.atlassian.com/agile/software-development/branching) is a common tactic used in change management and feature development. We're going to use a branch (and eventually a merge) to build our lab report.
-1. Create the branch ```git branch labreport```.
+1. Create the branch ```git  checkout -b labreport```.
 2. Create a lab report mardown file (ex. ```cp labreports/LAB.md labreports/LAB_[GITHUB USERNAME].md``` ).
 3. Add the file to your branch ```git commit -a -m "your commit and reference @tangollama in the message"```.
 4. Push the change to GitHub ```git push -u origin labreport```.
