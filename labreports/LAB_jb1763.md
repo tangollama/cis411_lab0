@@ -8,6 +8,9 @@ GitHub: [jb1763](https://github.com/jb1763)<br/>
 - The URL of my forked repository: https://github.com/jb1763/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
 
+[Fork Diagram]()
+//XXX TODO: add drive link
+
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
 
@@ -50,14 +53,28 @@ e429c1a lab instructions
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
 
+[Feature Branch Diagram]()
+//XXX TODO: add drive link
+
+
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
 
+config.yml is specifying what the continuous environment should do.
+
+It is markup to set up the Continuous Integration environment by using a prebuilt image, setting the working directory, Downloading and caching dependencies, and running yarn tests.
+
 - What do the various sections on the config file do?
+
+See answer above.
 
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
 
+The code passes all written tests/ the new commit doesn't regress in the testing process.
+
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+
+Issue a pull request into the original code base.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
