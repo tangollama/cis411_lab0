@@ -60,7 +60,31 @@ https://docs.google.com/drawings/d/1QmS0ontJWPx0tSodWrGwGioOvMajxzcwGJsc19DMR_4/
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
 # Step 5: Merging the feature branch
-* The output of my git commit log
+* The output of my git commit log:
+```
+44d2664 (HEAD -> master, origin/master, origin/labreport, origin/HEAD, labreport) Update LAB_[douglassjohnandrew].md
+edc7faf Update LAB_[douglassjohnandrew].md
+dda8634 Create LAB_[douglassjohnandrew].md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
+ab312fc more progress
+62fb0a5 more progress
+fe1937b more in the lab instructions
+3e807fb first section
+9ae6b83 remove LAB.md
+```
 * A screenshot of the _Jobs_ list in CircleCI
 
 # Step 6: Submitting a Pull Request
