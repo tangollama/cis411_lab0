@@ -85,7 +85,14 @@ fe1937b more in the lab instructions
 3e807fb first section
 9ae6b83 remove LAB.md
 ```
-* A screenshot of the _Jobs_ list in CircleCI
+* A screenshot of the _Jobs_ list in CircleCI:
+Despite my best efforts (and many hours of trying), I made a mistake somewhere in the CircleCI steps.
+My faulty builds are all I have to show for my hours of effort. Somewhere along the process, I apparently
+did not add my config.yml file correctly, which I thought I did, but apparently not. Quite annoyingly, CircleCL
+does not let me remove my repo and add it again and start over, otherwise I swear I would have. I even tried
+severing the connection between CircleCI and Github and reconnecting the 2 services, and that didn't work.
+I can only hope that my best is good enough:
+https://drive.google.com/open?id=1SNY9JWa8ptc4cQcNSovMbBuisRsJXozh
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
