@@ -46,4 +46,4 @@ Simply additional steps to deploy.
 ### Step 5
 `2360b74 (HEAD -> master, origin/labreport, labreport) Add config file for CircleCI`
 
-(https://i.imgur.com/loPlHlS.png)
+![CircleCI Screenshot](https://i.imgur.com/loPlHlS.png)
