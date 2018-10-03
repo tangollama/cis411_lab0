@@ -63,7 +63,7 @@ It indicates that it is able to provide rapid feedback so that if a defect is in
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
 # Step 5: Merging the feature branch
-*``` 2ae2066 (HEAD -> master, origin/labreports, labreports) Merge branch 'labreports' of https://github.com/tw1255/cis411_lab0 into labreports
+``` 2ae2066 (HEAD -> master, origin/labreports, labreports) Merge branch 'labreports' of https://github.com/tw1255/cis411_lab0 into labreports
 0bcec4b Please work
 90e45de Delete config.yml
 4dd4c2b Add files via upload
@@ -85,7 +85,7 @@ ab312fc more progress
 fe1937b more in the lab instructions
 3e807fb first section
 9ae6b83 remove LAB.md
-
+```
 * A screenshot of the _Jobs_ list in CircleCI
 
 # Step 6: Submitting a Pull Request
