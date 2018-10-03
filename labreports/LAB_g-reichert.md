@@ -5,8 +5,8 @@ Name: YOUR NAME<br/>
 GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 
 # Step 1: Fork this repository
-- The URL of my forked repository
-- The accompanying diagram of what my fork precisely and conceptually represents
+- The URL of my forked repository: https://github.com/g-reichert/cis411_lab0
+- The accompanying diagram of what my fork precisely and conceptually represents: https://docs.google.com/drawings/d/1ku1oU8Bh3MfztSN1YRZs0Il8xEK_KoN_nAwnXvgMQ5A/edit?usp=sharing
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -14,18 +14,28 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "c5e32ab3-7c37-47ca-b559-1fe8c1dde3c1",
+      "name": "Garrett Reichert",
+      "email": "gr1192@gmail.com"
     }
   }
-}
+
 ```
 
 # Step 3: Creating a feature branch
 - The output of my git commit log
 ```
-d2ddea5 (HEAD -> master, origin/master, origin/HEAD) Version 0.0.1 of the lab instructions
+6af4ee7 (HEAD -> labreport, origin/labreport) your commit and reference @tangollama in the message
+1949d2a (origin/master, origin/HEAD, master) Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
 ab312fc more progress
 62fb0a5 more progress
 fe1937b more in the lab instructions
@@ -35,14 +45,15 @@ e429c1a lab instructions
 968099e remove test db
 7362cd1 working
 44ce6ae Initial commit
+
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents
+- The accompanying diagram of what my feature branch precisely and conceptually represents: https://docs.google.com/drawings/d/1IiPk5pxi67Fa_jzRy_Vb87_q956tu3tioSulusABsgU/edit?usp=sharing
 
 # Step 4: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?
-- What do the various sections on the config file do?
-- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
-- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+- What is the .circleci/config.yml doing?: The .circleci/config.yml file is a configuration file. It contains the entire delivery process from build to deploy. It helps us do what we need to do on separate steps of 
+- What do the various sections on the config file do?: It provides of the version of CircleCi we are using, defines the different jobs, and each job has a sepearate set of steps to be run. It will run commands for us whenever we update or submit a change.
+- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?: It tells us that are code still runs for all of our dependencies and tests.
+- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?: You would want to develop test to make sure they work as expected.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
