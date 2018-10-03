@@ -64,19 +64,24 @@ e429c1a lab instructions
 	- Link to the diagram: https://docs.google.com/drawings/d/1fyCvImQVexLCOXhql0wSA66-dyhD21H8m3IeK27W_c4/edit?usp=sharing
 
 # Step 4: Setup a Continuous Integration configuration
-- The config file is determining where within the project the CI is going to be working, then it checks and stores all
-  dependencies, then it specifies all of the tests that need to be run on code that is being continuously integrated.
-	- Link to the diagram: 
+- The config file starts by specifying what version of continuous integration is being used, in this case version two. Then it looks at the job that it is tasked with. 
+  This list consists of all of the builds that it is keeping track of, which is only one in this case. Within that build, it specifies how that build should be made for
+  each instance of the build that it makes. It specifies what it is using, in this case Node version 7.10. Then it specifies what the continuous integration is working in,
+  which in this case is the whole repo but it could be specified to something else. After specifying all of the requirements for the build, the config file then specifies
+  all of the steps to go through for each build. These steps include caching all of the dependencies, and running a series of tests that the new code must pass in order to 
+  be integrated. Each test that is implemented to prevent new code from breaking old code must be specified here so that the CI knows to run each of the desired tests in the 
+  process of integrating the new commits. 
 - What is the .circleci/config.yml doing?
-	- It is continually watching your repo to check for dependency issues and is storing backups of cache dependencies.
+	- It is setting up all of the requirements and steps for the CI to follow for each instance of a build that it makes.
 - What do the various sections on the config file do?
-	- The first section, 'docker', appears to simply be where configuration variables are set to allow it to
-	  integrate with git. 
+	- The first section, specifies which version of circleci to use. The second section lists all of the jobs being done (i.e. each build that it must make instances of).
+	  Within the build, docker sets up the type of build (i.e. node). The steps section specifies all of the steps that are included in the process of building an instance.
+	  These steps include cache requirements and tests to run in order to check validity of commits.
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
 	- It means that there is a system in place to automatically test code that has been committed and then it creates a build including that newly committed code (assuming
 	  that the code passes all of the tests) to be deployed.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
-	- I might need to add more tests and specify where all of the cache dependencies are being stored.
+	- I might need to add more tests and change the working directory to more specifically encompass only what I want it to reference.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
