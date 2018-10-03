@@ -58,8 +58,14 @@ e429c1a lab instructions
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
+It connects your git to .circleci so that from your pipline to delpoying, it is completely automated/tested. 
+
 - What do the various sections on the config file do?
+It gets your repo, attempt to check it out if it can, runs Yarn (a package manager) in order to reduce errors related to network connectivity
+
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+It indicates that it is able to provide rapid feedback so that if a defect is introduced into the code base, it can be identified and corrected as soon as possible. This allows for easier deployment and is much easier to manage. 
+
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
 # Step 5: Merging the feature branch
