@@ -58,6 +58,7 @@ e429c1a lab instructions
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
+```
 a8adca2 (HEAD -> master, origin/labreport, labreport) God bless @tangollama and everyone
 8082f32 (origin/master, origin/HEAD) Update LAB.md
 1949d2a Update LAB_INSTRUCTIONS.md
@@ -79,6 +80,7 @@ e429c1a lab instructions
 968099e remove test db
 7362cd1 working
 44ce6ae Initial commit
+```
 
 * A screenshot of the _Jobs_ list in CircleCI
 
