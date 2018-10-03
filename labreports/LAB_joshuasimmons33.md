@@ -1,13 +1,16 @@
 # Lab Report Template for CIS4011_Lab0
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
-Name: YOUR NAME<br/>
-GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
+Name: Joshua Simmons<br/>
+GitHub: [joshuasimmons33](https://github.com/joshuasimmons33)<br/>
 
 # Step 1: Fork this repository
 - The URL of my forked repository
+- https://github.com/joshuasimmons33/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
-
+```
+See: 'Fork Diagram.pdf'
+```
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
 ```
@@ -49,6 +52,9 @@ e429c1a lab instructions
 
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
+```
+See: 'Branch Diagram.pdf'
+```
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
