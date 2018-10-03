@@ -14,9 +14,9 @@ GitHub: [wd1168](https://github.com/wd1168)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "67e7dd09-a90c-403d-8780-dde11cbc07aa",
+      "name": "Wyatt Richard Derk",
+      "email": "wd1168@messiah.edu"
     }
   }
 }
