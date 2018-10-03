@@ -58,7 +58,14 @@ See: 'Branch Diagram.pdf'
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
+```
+config.yml, as far as I can tell, is an automatic script that installs the project using yarn commands. This serves to continuously
+synch up the developer's code and make sure that it still is able to be integrated with the existing code.
+```
 - What do the various sections on the config file do?
+```
+
+```
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
