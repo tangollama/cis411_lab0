@@ -7,6 +7,7 @@ GitHub: [PinlekDLies](https://github.com/PinlekDLies)<br/>
 # Step 1: Fork this repository
 - https://github.com/PinlekDLies/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
+[Diagram](https://imgur.com/a/apJ2Phf)
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -55,6 +56,7 @@ e429c1a lab instructions
 
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
+[Diagram](https://imgur.com/uiDEKlq)
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
@@ -67,6 +69,7 @@ It gets your repo, attempt to check it out if it can, runs Yarn (a package manag
 It indicates that it is able to provide rapid feedback so that if a defect is introduced into the code base, it can be identified and corrected as soon as possible. This allows for easier deployment and is much easier to manage. 
 
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+I'd work on altering the various tests in the build for whatever I need to see or do in the test settings
 
 # Step 5: Merging the feature branch
 
@@ -84,7 +87,7 @@ Fast-forward
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
-
+[Screenshot](https://imgur.com/rl6ypUO)
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
