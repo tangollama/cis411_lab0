@@ -91,8 +91,38 @@ There would need to definitely be tests that were added, in order to make sure t
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
+```
+01563cb (HEAD -> master, origin/labreport, labreport) Answered questions in lab report
+f16dd49 Changed lab report
+4ca8d7d Added diagrams
+61cdbd2 Added circleci file and config.yml
+61209c7 Adding my output for the mutation
+db482d0 @tangollama Hey this is a commit! Yay!
+62f6fd0 (origin/master, origin/HEAD) Npm install
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
+ab312fc more progress
+62fb0a5 more progress
+fe1937b more in the lab instructions
+3e807fb first section
+9ae6b83 remove LAB.md
+e429c1a lab instructions
+968099e remove test db
+7362cd1 working
+44ce6ae Initial commit
+```
 * A screenshot of the _Jobs_ list in CircleCI
-
+```
+See: 'Jobs Screenshot.png' 
+```
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
 
