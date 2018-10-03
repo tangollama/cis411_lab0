@@ -22,6 +22,7 @@ Simple diagram URL: https://drive.google.com/open?id=1tC2Z-kNN_0tGeO6aH-YnfEtwCh
 
 ### Step 3
 `a1a8cf4 (HEAD -> labreport, origin/labreport) First commit @tangollama`
+
 Simple diagram URL: 
 
 ### Step 4
