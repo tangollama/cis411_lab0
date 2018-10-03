@@ -16,9 +16,9 @@ GitHub: @bbaumer18(https://github.com/bbaumer18)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "c95c3672-3e10-47cb-8a75-eb1e53370611",
+      "name": "Brandon Baumer",
+      "email": "bb1351@messiah.edu"
     }
   }
 }
