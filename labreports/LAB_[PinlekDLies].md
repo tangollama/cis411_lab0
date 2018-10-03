@@ -69,11 +69,26 @@ It indicates that it is able to provide rapid feedback so that if a defect is in
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
 # Step 5: Merging the feature branch
-* The output of my git commit log
+
+```
+Andrew@Andrews_PC MINGW64 ~/cis411_lab0 (master)
+$ git merge labreport
+Updating 347bd50..e06a98a
+Fast-forward
+ .circleci/config.yml            | 39 ++++++++++++++++++++
+ labreports/LAB_[PinlekDLies].md | 82 +++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 121 insertions(+)
+ create mode 100644 .circleci/config.yml
+ create mode 100644 labreports/LAB_[PinlekDLies].md
+
+```
+
 * A screenshot of the _Jobs_ list in CircleCI
+
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
+@tw1255
 
 # Step 7: [EXTRA CREDIT] Augment the core project
 PR reference in the report to one of the following:
