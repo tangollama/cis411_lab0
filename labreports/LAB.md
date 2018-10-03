@@ -84,6 +84,7 @@ e429c1a lab instructions
 
 * A screenshot of the _Jobs_ list in CircleCI
 
+
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
 
