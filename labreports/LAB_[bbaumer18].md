@@ -8,7 +8,11 @@ GitHub: @bbaumer18(https://github.com/bbaumer18)<br/>
 - The URL of my forked repository
   - https://github.com/bbaumer18/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
-  - INSERT DIAGRAM HERE
+  - While the forked version of the repo came from the original, it is completely separate with each being
+	controlled by the owner of that repo. So the original is controlled completely by tangollama while the 
+	forked version is completely controlled by bbaumer18. The only connection is that the forked version was
+	initially a copy of the original.
+  - Link to the diagram: https://docs.google.com/drawings/d/1vtkQT0afWz62Oymz0Z01DeeZWGD5QO8-Fdq6y_Fg-2I/edit?usp=sharing
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -53,12 +57,26 @@ e429c1a lab instructions
 
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
+	- The feature branch is simply a version of the repo that will track changes without them being 
+	  applied to the primary repo (master) until they are pushed. It represents an alternate version of the code that is
+	  not currently contained within master and can be merged to implement its differences with the master version.
+	  branch.
+	- Link to the diagram: https://docs.google.com/drawings/d/1fyCvImQVexLCOXhql0wSA66-dyhD21H8m3IeK27W_c4/edit?usp=sharing
 
 # Step 4: Setup a Continuous Integration configuration
+- The config file is determining where within the project the CI is going to be working, then it checks and stores all
+  dependencies, then it specifies all of the tests that need to be run on code that is being continuously integrated.
+	- Link to the diagram: 
 - What is the .circleci/config.yml doing?
+	- It is continually watching your repo to check for dependency issues and is storing backups of cache dependencies.
 - What do the various sections on the config file do?
+	- The first section, 'docker', appears to simply be where configuration variables are set to allow it to
+	  integrate with git. 
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+	- It means that there is a system in place to automatically test code that has been committed and then it creates a build including that newly committed code (assuming
+	  that the code passes all of the tests) to be deployed.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+	- I might need to add more tests and specify where all of the cache dependencies are being stored.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
