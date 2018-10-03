@@ -55,9 +55,26 @@ https://docs.google.com/drawings/d/1QmS0ontJWPx0tSodWrGwGioOvMajxzcwGJsc19DMR_4/
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
+https://docs.google.com/drawings/d/1LJu-lw8EIZCwDPxci2yR-ArWaVDQSkRAZWbAifeVK_o/edit?usp=sharing
 - What do the various sections on the config file do?
+       Version defines the version of CircleCI
+       Jobs: indicates all the tasks to be done
+          Build: the parts that compose the build of a certain job
+              Docker: the image specifies the desired docker container
+              working_directory changes the working directory
+              steps: the statements for the config file to run
+                  checkout: changes branches
+                  restore_cache / keys: downloads the needed dependencies for the config file to do its tasks
+                  run: does a task
+                  save_cache: saves paths and keys for future builds
+                  yarn test: tests something (I have no idea what)
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+      If a build is successful, it is reliable and can be trusted to consistently, continuously integrate any future
+      project features effectively and efficiently.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+      I might implement more test besides the yarn test, or create unit tests. I might also have the application
+      generate a changelog so that users who got the latest version of this application could see the
+      enhancements and changes.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log:
@@ -86,13 +103,9 @@ fe1937b more in the lab instructions
 9ae6b83 remove LAB.md
 ```
 * A screenshot of the _Jobs_ list in CircleCI:
-Despite my best efforts (and many hours of trying), I made a mistake somewhere in the CircleCI steps.
-My faulty builds are all I have to show for my hours of effort. Somewhere along the process, I apparently
-did not add my config.yml file correctly, which I thought I did, but apparently not. Quite annoyingly, CircleCL
-does not let me remove my repo and add it again and start over, otherwise I swear I would have. I even tried
-severing the connection between CircleCI and Github and reconnecting the 2 services, and that didn't work.
-I can only hope that my best is good enough:
-https://drive.google.com/open?id=1SNY9JWa8ptc4cQcNSovMbBuisRsJXozh
+https://drive.google.com/open?id=14MuPnhsVnUf5MuCKScehoUjid3p54Tn1
+https://drive.google.com/open?id=181vPLkQn_0q_cDWx06da6VNV4GDybEsr
+https://drive.google.com/open?id=1yM10r3koX5ZpTl-KCHORJzhEsXWpeIg0
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
