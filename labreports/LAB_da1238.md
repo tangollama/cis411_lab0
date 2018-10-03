@@ -13,9 +13,10 @@ Step 1
 
 -   The accompanying diagram of what my fork precisely and conceptually represents
 
-![](blob:https://euangoddard.github.io/c3c4ee55-feb3-4e99-9db1-74cc8074f17b)
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/34067356/46429018-6eadf380-c713-11e8-8f08-04aecf07447b.png">
 
-**Step 2**
+Step 2
+======
 
 -   My GraphQL response from adding myself as an account on the test project
 
@@ -37,7 +38,8 @@ Step 1
 
 }
 
-**Step 3**
+Step 3
+======
 
 -   The output of my git commit log
 
@@ -81,9 +83,11 @@ e429c1alab instructions
 
 44ce6aeInitial commit
 
--   The accompanying diagram of what my feature branch precisely and conceptually represents![](blob:https://euangoddard.github.io/bf93bf89-1f9c-4f27-8828-46b140ff1911)
+-   The accompanying diagram of what my feature branch precisely and conceptually represents<img width="468" alt="image" src="https://user-images.githubusercontent.com/34067356/46429076-8f764900-c713-11e8-88d3-ef8ea9be0815.png">
 
-**Step 4: Setup a Continuous Integration configuration**
+
+Step 4
+======
 
 -   What is the .circleci/config.yml doing?
 
@@ -101,7 +105,8 @@ According to the report from my first unsuccessful build, a successful build wil
 
 Since delivery will be done in short increments, I would modify the configuration to reduce installation of any sorts in order to increase time efficiency.
 
-**Step 5: Merging the feature branch**
+Step 5
+======
 
 -   The output of my git commit log
 
@@ -145,4 +150,6 @@ e429c1alab instructions
 
 44ce6aeInitial commit
 
--   A screenshot of the *Jobs* list in CircleCI![](blob:https://euangoddard.github.io/944a1220-0a79-4927-9bc1-8f886665f30e)
+-   A screenshot of the *Jobs* list in CircleCI  
+<img width="384" alt="image" src="https://user-images.githubusercontent.com/34067356/46429158-c0567e00-c713-11e8-83f8-58b2ac8fc059.png">
+
