@@ -6,7 +6,7 @@ GitHub: [PinlekDLies](https://github.com/PinlekDLies)<br/>
 
 # Step 1: Fork this repository
 - https://github.com/PinlekDLies/cis411_lab0
-- The accompanying diagram of what my fork precisely and conceptually represents
+- The accompanying diagram of what my fork precisely and conceptually represents <br>
 [Diagram](https://imgur.com/a/apJ2Phf)
 
 # Step 2: Clone your forked repository from the command line
@@ -55,7 +55,7 @@ e429c1a lab instructions
 
 
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents
+- The accompanying diagram of what my feature branch precisely and conceptually represents <br>
 [Diagram](https://imgur.com/uiDEKlq)
 
 # Step 4: Setup a Continuous Integration configuration
@@ -86,7 +86,7 @@ Fast-forward
 
 ```
 
-* A screenshot of the _Jobs_ list in CircleCI
+* A screenshot of the _Jobs_ list in CircleCI <br>
 [Screenshot](https://imgur.com/rl6ypUO)
 
 # Step 6: Submitting a Pull Request
