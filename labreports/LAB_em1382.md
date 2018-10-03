@@ -24,5 +24,20 @@ Simple diagram URL: https://drive.google.com/open?id=1tC2Z-kNN_0tGeO6aH-YnfEtwCh
 `a1a8cf4 (HEAD -> labreport, origin/labreport) First commit @tangollama`
 Simple diagram URL: 
 
-### Step ???
+### Step 4
+The config.yml file is simply a configuration file that is being read by CircleCI.
+It contains instructions on what CircleCI is to do.
+###### Sections:
+* Version: specifies the version number.
+* Jobs: contains a list of jobs to be run.
+* Build: build section for a job.
+* Docker: specify Docker image.
+* Working Directory: specify working directory.
+* Steps: list commands to be run.
+###### What happens when a build is successful?
+It indicates that you're ready to work on the next build if that one is successful.
+###### What additional changes would be needed for continuous delivery?
+
+
+### Step 5
 `2360b74 (HEAD -> master, origin/labreport, labreport) Add config file for CircleCI`
