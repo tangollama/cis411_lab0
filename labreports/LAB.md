@@ -1,12 +1,14 @@
 # Lab Report Template for CIS411_Lab0
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
-Name: YOUR NAME<br/>
-GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
+Name: Brandon Baumer<br/>
+GitHub: @bbaumer18(https://github.com/bbaumer18)<br/>
 
 # Step 1: Fork this repository
 - The URL of my forked repository
+  - https://github.com/bbaumer18/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
+  - INSERT DIAGRAM HERE
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
