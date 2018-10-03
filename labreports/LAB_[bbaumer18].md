@@ -114,6 +114,7 @@ e429c1a lab instructions
 44ce6ae Initial commit
 
 * A screenshot of the _Jobs_ list in CircleCI
+Screenshot: https://docs.google.com/document/d/11CGn9nB97y6GJJ95_t22l_nuFuGKmW5HIcxO_lmU_uQ/edit?usp=sharing
 
 
 # Step 6: Submitting a Pull Request
