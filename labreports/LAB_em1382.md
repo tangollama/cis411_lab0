@@ -38,7 +38,10 @@ It contains instructions on what CircleCI is to do.
 ###### What happens when a build is successful?
 It indicates that you're ready to work on the next build if that one is successful.
 ###### What additional changes would be needed for continuous delivery?
+Simply additional steps to deploy.
 
 
 ### Step 5
 `2360b74 (HEAD -> master, origin/labreport, labreport) Add config file for CircleCI`
+
+(https://i.imgur.com/loPlHlS.png)
