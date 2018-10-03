@@ -54,24 +54,24 @@ fe1937b more in the lab instructions
 https://docs.google.com/drawings/d/1QmS0ontJWPx0tSodWrGwGioOvMajxzcwGJsc19DMR_4/edit?usp=sharing
 
 # Step 4: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?
+- What is the .circleci/config.yml doing?<br/>
 https://docs.google.com/drawings/d/1LJu-lw8EIZCwDPxci2yR-ArWaVDQSkRAZWbAifeVK_o/edit?usp=sharing
-- What do the various sections on the config file do?
-       Version defines the version of CircleCI
-       Jobs: indicates all the tasks to be done
-          Build: the parts that compose the build of a certain job
-              Docker: the image specifies the desired docker container
-              working_directory changes the working directory
-              steps: the statements for the config file to run
-                  checkout: changes branches
-                  restore_cache / keys: downloads the needed dependencies for the config file to do its tasks
-                  run: does a task
-                  save_cache: saves paths and keys for future builds
-                  yarn test: tests something (I have no idea what)
-- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+- What do the various sections on the config file do?<br/>
+       Version defines the version of CircleCI<br/>
+       Jobs: indicates all the tasks to be done<br/>
+          Build: the parts that compose the build of a certain job<br/>
+              Docker: the image specifies the desired docker container<br/>
+              working_directory changes the working directory<br/>
+              steps: the statements for the config file to run<br/>
+                  checkout: changes branches<br/>
+                  restore_cache / keys: downloads the needed dependencies for the config file to do its tasks<br/>
+                  run: does a task<br/>
+                  save_cache: saves paths and keys for future builds<br/>
+                  yarn test: tests something (I have no idea what)<br/>
+- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?<br/>
       If a build is successful, it is reliable and can be trusted to consistently, continuously integrate any future
       project features effectively and efficiently.
-- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?<br/>
       I might implement more test besides the yarn test, or create unit tests. I might also have the application
       generate a changelog so that users who got the latest version of this application could see the
       enhancements and changes.
