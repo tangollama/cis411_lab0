@@ -50,7 +50,7 @@ e429c1a lab instructions
 - The accompanying diagram of what my feature branch precisely and conceptually represents: https://docs.google.com/drawings/d/1IiPk5pxi67Fa_jzRy_Vb87_q956tu3tioSulusABsgU/edit?usp=sharing
 
 # Step 4: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?: The .circleci/config.yml file is a configuration file. It contains the entire delivery process from build to deploy. It helps us do what we need to do on separate steps of 
+- What is the .circleci/config.yml doing?: The .circleci/config.yml file is a configuration file. It contains the entire delivery process from build to deploy. It helps us do what we need to do on separate steps of deployment
 - What do the various sections on the config file do?: It provides of the version of CircleCi we are using, defines the different jobs, and each job has a sepearate set of steps to be run. It will run commands for us whenever we update or submit a change.
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?: It tells us that are code still runs for all of our dependencies and tests.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?: You would want to develop test to make sure they work as expected.
