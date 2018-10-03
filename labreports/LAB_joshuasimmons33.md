@@ -64,10 +64,30 @@ synch up the developer's code and make sure that it still is able to be integrat
 ```
 - What do the various sections on the config file do?
 ```
-
+The 'jobs' section is seemingly a container, that might hold several 'build' instances.
+The 'build' section seems specific to each project, and probably holds different configuration options that determine
+  how a project is built.
+The 'docker section' contains an image number, which looks like it determines which node image gets used.
+The 'steps' portion of config.yml seems to contain shell commands, that would be used in a CMD line in order to perform various opertations.
+  Specifically, I see a checkout command, which would be a git command to retrieve a branch from a remote repo to the local machine. I am
+  also familiar with yarn, which is a package manager. Those commands are responsible for building and running a version of a Javascript
+  application. Finally, this section also seems to set up dependencies, and will save/install the ones that are needed as determined by
+  the package.json
 ```
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+```
+If a CI build is successful, that means that there are no compilation errors, and that the code builds correctly without issues.
+  For this lab, this doesn't really mean much; the project isn't complex. In a more professional project, this might also mean that
+  the automated tests all passed, and the code was all successfully compiled.
+```
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+```
+There would need to definitely be tests that were added, in order to make sure that the project meets any specifications that are needed.
+  The tests would need to be rather comprehensive, to ensure that the project is ready to build before actually doing the build process.
+  Also, there would need to be a method of deploying the project, meaning that there would most likely need to be a place where the project
+  is hosted, so that the built project could be accessed. We would also have to have somebody responsible for deploying the builds on a
+  semi-regular basis.
+```
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
