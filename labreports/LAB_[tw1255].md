@@ -63,7 +63,7 @@ It indicates that it is able to provide rapid feedback so that if a defect is in
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
 # Step 5: Merging the feature branch
-* 2ae2066 (HEAD -> master, origin/labreports, labreports) Merge branch 'labreports' of https://github.com/tw1255/cis411_lab0 into labreports
+*``` 2ae2066 (HEAD -> master, origin/labreports, labreports) Merge branch 'labreports' of https://github.com/tw1255/cis411_lab0 into labreports
 0bcec4b Please work
 90e45de Delete config.yml
 4dd4c2b Add files via upload
