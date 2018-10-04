@@ -5,8 +5,9 @@ Name: Justin Kim<br/>
 GitHub: [TymeOfNight](https://github.com/YOUR_HANDLE)<br/>
 
 # Step 1: Fork this repository
-- The URL of my forked repository
+- The URL of my forked repository: [https://github.com/TymeOfNight/cis411_lab0](https://github.com/TymeOfNight/cis411_lab0)
 - The accompanying diagram of what my fork precisely and conceptually represents
+
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
