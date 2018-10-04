@@ -6,10 +6,8 @@ GitHub: [tw1255](https://github.com/tw1255)<br/>
 
 # Step 1: Fork this repository
 - https://github.com/tw1255/cis411_lab0.git
-- The accompanying diagram of what my fork precisely and conceptually represents
 
 # Step 2: Clone your forked repository from the command line
-- My GraphQL response from adding myself as an account on the test project
 ```
 {
   "data": {
@@ -23,7 +21,6 @@ GitHub: [tw1255](https://github.com/tw1255)<br/>
 ```
 
 # Step 3: Creating a feature branch
-- The output of my git commit log
 ```
 8f054ba (HEAD -> labreports, origin/labreports, master) God bless Joel @tangollama
 37393ae (origin/master, origin/labreport, origin/HEAD, labreport) Bug fixed
@@ -48,8 +45,6 @@ e429c1a lab instructions
 44ce6ae Initial commit
 
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents
-
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
 It continously integrates itself with Github to create your build, test it, and release it.
@@ -61,6 +56,7 @@ It gets the repo, zttempts to check it out, runs yarn (a package manager) in ord
 It indicates that it is able to provide rapid feedback so that if a defect is introduced into the code base, it can be identified and corrected as soon as possible. This allows for easier deployment and is much easier to manage.
 
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+I would probably try to make a change that allowed for an option of no deployment no matter what just for testing.
 
 # Step 5: Merging the feature branch
 ``` 2ae2066 (HEAD -> master, origin/labreports, labreports) Merge branch 'labreports' of https://github.com/tw1255/cis411_lab0 into labreports
@@ -86,8 +82,6 @@ fe1937b more in the lab instructions
 3e807fb first section
 9ae6b83 remove LAB.md
 ```
-* A screenshot of the _Jobs_ list in CircleCI
-
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
 
