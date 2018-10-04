@@ -27,7 +27,8 @@ GitHub: [dv1187](https://github.com/dv1187)<br/>
 - The output of my git commit log
 ```
 Donovans-MacBook-Air:cis411_lab0 Dono$ git log --oneline
-16bd042 (HEAD -> master, origin/master, origin/HEAD) your commit and reference @tangollama in the message
+563099c (HEAD -> master, origin/master, origin/HEAD) Add links to google draw files
+16bd042 your commit and reference @tangollama in the message
 2846c92 your commit and reference @tangollama in the message
 37393ae (origin/labreport, labreport) Bug fixed
 1949d2a Update LAB_INSTRUCTIONS.md
@@ -48,16 +49,19 @@ fe1937b more in the lab instructions
 e429c1a lab instructions
 968099e remove test db
 7362cd1 working
-44ce6ae Initial commit
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
 	(https://docs.google.com/drawings/d/1wvHj4P8jygYdXQckCEC6JFDSHrZDgTL1c1tCiTS79e0/edit?usp=sharing)
 
 # Step 4: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?
+- What is the .circleci/config.yml doing? 
+	It appears that the config is making sure that the project has all the proper dependincies installed before it is run.
 - What do the various sections on the config file do?
+	They make sure that the right versions of dependencies are included, the directory of the project, run commands, and test commands.
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+	When a build is successful, I'm assuming that everything in the config.yml file has passed inspection and will allow it to be built properly.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+	IF i had to make this ready for continuous development, I'd probably want to add significantly more test cases to make sure whatever was in the project would remain working once it worked in the first place.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
