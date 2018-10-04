@@ -41,8 +41,28 @@ e429c1a lab instructions
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
+
+It is storing the config information for circleci.
+
 - What do the various sections on the config file do?
+
+"version" specifies the version number.
+
+"jobs" nests many folders underneath it.
+
+"build" contains build information.
+
+"docker" contains information for the docker and circle ci image.
+
+"working_directory" specifies the working directory.
+
+"steps" specifies the steps that run for circle ci to behave properly, with many sections underneath it.
+
+
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+
+It indicates the types of things we wish to update about our build at the same time indicating how to start our build. It should be the same each time we update it so that we can continuously update our build.
+
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
 # Step 5: Merging the feature branch
