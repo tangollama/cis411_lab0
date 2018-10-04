@@ -74,17 +74,17 @@ The script is configuring a virtual machine space, installing all the dependenci
 
 > What do the various sections on the config file do?
 
--`version` determines the version of Circle CI to use in the testing.
--The `jobs` section lists all of the jobs to be done.  In this case, only the job `build` is listed.
--The `build` job has three subsidiary tasks it completes. 
---In the `docker` section, the program constructs a virtual machine to run the project, installing any system dependencies required.  (In this case, it installs Node JS version 7.10.
---The `working_directory` value specifies a folder that will be created on the VM, which will be used as the project root. (The location where tested projects will be saved and run.)
---The `steps` section details all the steps needed to download and run the project. These include:
---- Checking out the latest version of the project source, and compiling it so it is runnable.
---- Downloading and caching any project dependencies not already installed,
----Installing the downloaded dependencies if needed,
----Saving the configurations and locations of the downloaded dependencies, so they can be fetched faster the next time,
----And finally, running tests.
+* `version` determines the version of Circle CI to use in the testing.
+* The `jobs` section lists all of the jobs to be done.  In this case, only the job `build` is listed.
+* The `build` job has three subsidiary tasks it completes. 
+  * In the `docker` section, the program constructs a virtual machine to run the project, installing any system dependencies required.  (In this case, it installs Node JS version 7.10.
+  * The `working_directory` value specifies a folder that will be created on the VM, which will be used as the project root. (The location where tested projects will be saved and run.)
+  * The `steps` section details all the steps needed to download and run the project. These include:
+      * Checking out the latest version of the project source, and compiling it so it is runnable.
+      * Downloading and caching any project dependencies not already installed,
+      * Installing the downloaded dependencies if needed,
+      * Saving the configurations and locations of the downloaded dependencies, so they can be fetched faster the next time,
+      * And finally, running tests.
 
 > When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
 
