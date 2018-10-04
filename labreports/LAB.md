@@ -2,12 +2,11 @@
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
 Name: Justin Kim<br/>
-GitHub: [TymeOfNight](https://github.com/YOUR_HANDLE)<br/>
+GitHub: [TymeOfNight](https://github.com/TymeOfNight)<br/>
 
 # Step 1: Fork this repository
 - The URL of my forked repository: [https://github.com/TymeOfNight/cis411_lab0](https://github.com/TymeOfNight/cis411_lab0)
-- The accompanying diagram of what my fork precisely and conceptually represents
-
+- The accompanying diagram of what my fork precisely and conceptually represents ![Forking vs. Branching](https://github.com/TymeOfNight/cis411_lab0/assets/Untitled Diagram.png) 
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
