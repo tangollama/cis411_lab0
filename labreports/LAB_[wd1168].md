@@ -7,7 +7,7 @@ Link to repository I star: https://github.com/tangollama/cis411_lab0/blob/master
 
 # Step 1: Fork this repository
 - The URL of my forked repository:
-- The accompanying diagram of what my fork precisely and conceptually represents: https://docs.google.com/drawings/d/1PVJQSTaAr6K_1UNG4PUb_lN2yffggfkUlcs_EpRGUig/edit?usp=sharing
+- The accompanying diagram of what my fork precisely and conceptually represents: https://docs.google.com/drawings/d/1_DS0VjiMpvaXs2TsTF484SjQ1op70zGtLyZrWM2S2Eo/edit?usp=sharing
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -88,7 +88,8 @@ e429c1a lab instructions
 44ce6ae Initial commit
 ```
 
-* A screenshot of the _Jobs_ list in CircleCI
+* A screenshot of the _Jobs_ list in CircleCI:
+https://drive.google.com/file/d/1gB5r-_hlqgeEx7KVnfng3eKbe94dJ4F7/view?usp=sharing
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
