@@ -5,7 +5,7 @@ Name: YOUR NAME<br/>
 GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 
 # Step 1: Fork this repository
-- The URL of my forked repository
+- The URL of my forked repository: https://github.com/TheIbinator/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
 
 # Step 2: Clone your forked repository from the command line
@@ -14,12 +14,13 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "fa8595e9-c904-4489-b111-f6f0f517157c",
+      "name": "Ibinabo Braie",
+      "email": "ib2163@messiah.edu"
     }
   }
 }
+
 ```
 
 # Step 3: Creating a feature branch
