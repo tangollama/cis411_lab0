@@ -57,7 +57,34 @@ e429c1a lab instructions
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
 # Step 5: Merging the feature branch
-* The output of my git commit log
+* f614e16 (HEAD -> labreport, origin/labreport) .gitignore fix
+721fb69 copy circle ci config file
+7e80829 move config file for circleci
+1c4641a update node package version
+63ef66e Retry git configuration file push
+3ecbbc3 circleci configuration files
+c43182c Nicholas DeSola ab commit
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
+ab312fc more progress
+62fb0a5 more progress
+fe1937b more in the lab instructions
+3e807fb first section
+9ae6b83 remove LAB.md
+e429c1a lab instructions
+968099e remove test db
+7362cd1 working
+44ce6ae Initial commit
 * A screenshot of the _Jobs_ list in CircleCI
 
 # Step 6: Submitting a Pull Request
