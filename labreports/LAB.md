@@ -48,13 +48,13 @@ e429c1a lab instructions
 7362cd1 working
 44ce6ae Initial commit
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents
+- https://docs.google.com/drawings/d/1i6XUN-eYmXIYh1e2ppibuzC-OKCfRwZCnAxV34C2qBk/edit?usp=sharing
 
 # Step 4: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?
-- What do the various sections on the config file do?
-- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
-- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+- The config file is deciding what version of circleci to use, as well as specifying any dependencies needed for the build to run with.
+- The file specifies the json version, then checking for any dependencies, and finally validating and checking that json is even installed/apparent.
+- The build has been validated for the proper version of json and has been configured to connect properly with circleci.
+- I would allow for a backup to be made, as well as a default section to constantly keep the proper dependencies available to always wait for a build to be complete for it to be delivered.
 
 # Step 5: Merging the feature branch
 * f614e16 (HEAD -> labreport, origin/labreport) .gitignore fix
@@ -85,7 +85,7 @@ e429c1a lab instructions
 968099e remove test db
 7362cd1 working
 44ce6ae Initial commit
-* A screenshot of the _Jobs_ list in CircleCI
+* https://drive.google.com/open?id=1jfb1QmRRazTMhv9rjOT0T7PmJYVsmgG4
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
