@@ -7,7 +7,7 @@ Link to repository I star: https://github.com/tangollama/cis411_lab0/blob/master
 
 # Step 1: Fork this repository
 - The URL of my forked repository:
-- The accompanying diagram of what my fork precisely and conceptually represents 
+- The accompanying diagram of what my fork precisely and conceptually represents: https://docs.google.com/drawings/d/1PVJQSTaAr6K_1UNG4PUb_lN2yffggfkUlcs_EpRGUig/edit?usp=sharing
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
