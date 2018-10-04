@@ -52,9 +52,14 @@ e429c1a lab instructions
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
+It sets up the project so that it can autmatically build the project whenever there is a push. 
 - What do the various sections on the config file do?
+The docker part is responible for deciding which version of setting to use for the build. Steps runs the test to make sure that the build integrated 
+correctly and that the build doesn't fall. 
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+It means that the build actually works and that the integration was succesfull.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+You would need to add a place for the deployment to be hosted(server) and a lot more tests to make sure it was deployment ready. 
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
