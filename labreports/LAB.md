@@ -25,7 +25,19 @@ GitHub: [nd1227](https://github.com/nd1227)<br/>
 # Step 3: Creating a feature branch
 - The output of my git commit log
 ```
-d2ddea5 (HEAD -> master, origin/master, origin/HEAD) Version 0.0.1 of the lab instructions
+c43182c (HEAD -> labreport, origin/labreport) Nicholas DeSola ab commit
+7aaa9f3 (origin/master, origin/HEAD, master) Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
 ab312fc more progress
 62fb0a5 more progress
 fe1937b more in the lab instructions
