@@ -14,9 +14,9 @@ GitHub: [TymeOfNight](https://github.com/TymeOfNight)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "f52f049a-d4db-45c8-b749-28133b560294",
+      "name": "Justin John Kim",
+      "email": "jk1515@messiah.edu"
     }
   }
 }
