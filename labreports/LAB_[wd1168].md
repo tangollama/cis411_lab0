@@ -51,7 +51,7 @@ e429c1a lab instructions
 7362cd1 working
 44ce6ae Initial commit
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents
+- The accompanying diagram of what my feature branch precisely and conceptually represents: https://docs.google.com/drawings/d/1LsPO3zUE5W6o7r38X1mNA6B-GLP6F_b6R6AMedod4gk/edit?usp=sharing
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
