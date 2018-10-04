@@ -3,10 +3,11 @@ Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
 Name: Wyatt Richard Derk<br/>
 GitHub: [wd1168](https://github.com/wd1168)<br/>
+Link to repository I star: https://github.com/tangollama/cis411_lab0/blob/master/labreports/LAB_INSTRUCTIONS.md
 
 # Step 1: Fork this repository
 - The URL of my forked repository:
-- The accompanying diagram of what my fork precisely and conceptually represents
+- The accompanying diagram of what my fork precisely and conceptually represents 
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
