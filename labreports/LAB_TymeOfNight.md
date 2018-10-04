@@ -14,9 +14,9 @@ GitHub: [TymeOfNight](https://github.com/TymeOfNight)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "f52f049a-d4db-45c8-b749-28133b560294",
+      "name": "Justin John Kim",
+      "email": "jk1515@messiah.edu"
     }
   }
 }
@@ -25,7 +25,34 @@ GitHub: [TymeOfNight](https://github.com/TymeOfNight)<br/>
 # Step 3: Creating a feature branch
 - The output of my git commit log
 ```
-d2ddea5 (HEAD -> master, origin/master, origin/HEAD) Version 0.0.1 of the lab instructions
+c38a9c6 (HEAD -> labreport, origin/labreport) config.yml
+d8934f4 Copy of the labreport, as per @tangollama's instructions.
+9fa72a8 (origin/master, origin/HEAD, master) Update LAB.md
+9bae12b Update LAB.md
+6eecec0 Update LAB.md
+da3b016 Update LAB.md
+60853f1 Update LAB.md
+8d4096e Added forkbranch.png
+e9c3234 Update LAB.md
+d9d407d Update LAB.md
+526ab08 Added Untitled Diagram.png
+83b2e33 Added Forks v Branches.png
+f68a795 Update LAB.md
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
 ab312fc more progress
 62fb0a5 more progress
 fe1937b more in the lab instructions
@@ -35,8 +62,10 @@ e429c1a lab instructions
 968099e remove test db
 7362cd1 working
 44ce6ae Initial commit
+(END)
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
+![Branch Diagram](https://github.com/TymeOfNight/cis411_lab0/blob/labreport/assets/GitBranches.png)
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
