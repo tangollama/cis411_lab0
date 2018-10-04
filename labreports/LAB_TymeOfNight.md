@@ -69,8 +69,11 @@ e429c1a lab instructions
 
 # Step 4: Setup a Continuous Integration configuration
 > What is the .circleci/config.yml doing?
+
 The script is configuring a virtual machine space, installing all the dependencies for my project, cloneing the project from GitHub, and running it, monitoring the exit status so it can report either a success or a failure.
+
 > What do the various sections on the config file do?
+
 -`version` determines the version of Circle CI to use in the testing.
 -The `jobs` section lists all of the jobs to be done.  In this case, only the job `build` is listed.
 -The `build` job has three subsidiary tasks it completes. 
@@ -82,9 +85,13 @@ The script is configuring a virtual machine space, installing all the dependenci
 ---Installing the downloaded dependencies if needed,
 ---Saving the configurations and locations of the downloaded dependencies, so they can be fetched faster the next time,
 ---And finally, running tests.
+
 > When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+
 A successful build does not necessarily mean a build is ready for the public.  It only means that new changes haven't broken previous changes, and that developers can continue to build out the next feature.  It's also important to periodically verify that the tests themselves aren't broken; sometimes tests pass because they aren't actually testing the right thing in the right way.
+
 > If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+
 I would make sure it is compiled and tested on different platforms, if applicable, and I might want to run tests on multiple versions of dependencies.  
 
 # Step 5: Merging the feature branch
