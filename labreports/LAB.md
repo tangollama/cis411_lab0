@@ -65,7 +65,7 @@ e429c1a lab instructions
 (END)
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
-![Branch Diagram] (https://github.com/TymeOfNight/cis411_lab0/blob/labreport/assets/GitBranches.png)
+![Branch Diagram](https://github.com/TymeOfNight/cis411_lab0/blob/labreport/assets/GitBranches.png)
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
