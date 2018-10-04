@@ -6,7 +6,7 @@ GitHub: [TymeOfNight](https://github.com/TymeOfNight)<br/>
 
 # Step 1: Fork this repository
 - The URL of my forked repository: [https://github.com/TymeOfNight/cis411_lab0](https://github.com/TymeOfNight/cis411_lab0)
-- The accompanying diagram of what my fork precisely and conceptually represents ![Forking vs. Branching](cis411_lab0/assets/forkbranch.png) 
+- The accompanying diagram of what my fork precisely and conceptually represents ![Forking vs. Branching](assets/forkbranch.png) 
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
