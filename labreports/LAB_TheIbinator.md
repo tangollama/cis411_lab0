@@ -1,8 +1,8 @@
 # Lab Report Template for CIS411_Lab0
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
-Name: YOUR NAME<br/>
-GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
+Name: Ibi Braide<br/>
+GitHub: [TheIbinator](https://github.com/TheIbinator)<br/>
 
 # Step 1: Fork this repository
 - The URL of my forked repository: https://github.com/TheIbinator/cis411_lab0
