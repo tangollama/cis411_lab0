@@ -1,12 +1,13 @@
 # Lab Report Template for CIS411_Lab0
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
-Name: YOUR NAME<br/>
-GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
+Name: Trevor Bunch<br/>
+GitHub: [trevordbunch](https://github.com/trevordbunch/)<br/>
 
 # Step 1: Fork this repository
-- The URL of my forked repository
+- The URL of my forked repository: https://github.com/trevordbunch/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
+A Fork is simply making a copy for editing (https://docs.google.com/drawings/d/srXWeXWrdTEF2m-PZ_5i45A/image?w=624&h=299&rev=79&ac=1&parent=1jBn3-g7u51tsfcxDgktJtrjsEsr_1066nKwRCcdx7oI)
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -14,9 +15,9 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "5c345bb5-0c54-44ae-8e57-f5f00b0eddbb",
+      "name": "TREVOR BUNCH",
+      "email": "tbunch@messiah.edu"
     }
   }
 }
