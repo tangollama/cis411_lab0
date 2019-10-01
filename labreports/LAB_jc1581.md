@@ -27,7 +27,11 @@ GitHub: [jc1581](https://github.com/jc1581)<br/>
 # Step 3: Creating a feature branch
 - The output of my git commit log
 ```
-e9b008e (HEAD -> labreport, origin/labreport) @tangollama added lab report
+f19a587 (HEAD -> labreport, origin/labreport) update lab report
+a004121 update lab report
+021d644 Update LAB_jc1581.md
+ddd3057 updated lab report
+e9b008e @tangollama added lab report
 dabceca (origin/master, origin/HEAD, master) Merge pull request #24 from tangollama/circleci
 a4096db Create README.md
 2f01bf4 Update LAB_INSTRUCTIONS.md
@@ -52,9 +56,6 @@ fe1937b more in the lab instructions
 e429c1a lab instructions
 ce1fcea circleci default config
 80bbdbb circleci default config
-968099e remove test db
-7362cd1 working
-44ce6ae Initial commit
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
 <img src="cis_411 GitHub Lab Diagram2.png"
