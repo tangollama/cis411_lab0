@@ -7,7 +7,9 @@ GitHub: [jc1581](https://github.com/jc1581)<br/>
 # Step 1: Fork this repository
 - The URL of [my forked repository](https://github.com/jc1581/cis411_lab0)
 - The accompanying diagram of what my fork precisely and conceptually represents
-![](cis_411 GitHub Lab Diagram1.png)
+<img src="cis_411 GitHub Lab Diagram1.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -56,7 +58,9 @@ ce1fcea circleci default config
 44ce6ae Initial commit
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
-![](cis_411 GitHub Lab Diagram2)
+<img src="cis_411 GitHub Lab Diagram2.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
