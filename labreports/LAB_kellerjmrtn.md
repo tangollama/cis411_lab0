@@ -6,7 +6,7 @@ GitHub: [kellerjmrtn](https://github.com/kellerjmrtn)<br/>
 
 # Step 1: Fork this repository
 - [Forked Repo](https://github.com/kellerjmrtn/cis411_lab0)
-- The accompanying diagram of what my fork precisely and conceptually represents
+- [Diagram of how a fork works](https://docs.google.com/drawings/d/12sIGXww3_w6tcz3v3qsVdYAM6wLva_wmXkv81g-aBnw/edit?usp=sharing)
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
