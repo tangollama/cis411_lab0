@@ -14,12 +14,12 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "584d947f-93fe-403a-adae-00ee58631292",
+      "name": "Caleb Weaver",
+      "email": "cweaver136@gmail.com"
     }
   }
-}
+}}
 ```
 
 # Step 3: Creating a feature branch
