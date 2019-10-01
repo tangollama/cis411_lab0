@@ -8,7 +8,6 @@ GitHub: [jc1581](https://github.com/jc1581)<br/>
 - The URL of [my forked repository](https://github.com/jc1581/cis411_lab0)
 - The accompanying diagram of what my fork precisely and conceptually represents
 <img src="cis_411 GitHub Lab Diagram1.png"
-     alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
 # Step 2: Clone your forked repository from the command line
@@ -59,7 +58,6 @@ ce1fcea circleci default config
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
 <img src="cis_411 GitHub Lab Diagram2.png"
-     alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
 # Step 4: Setup a Continuous Integration configuration
