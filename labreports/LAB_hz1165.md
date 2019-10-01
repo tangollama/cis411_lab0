@@ -1,12 +1,12 @@
 # Lab Report Template for CIS411_Lab0
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
-Name: YOUR NAME<br/>
-GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
+Name: Howard Zhang<br/>
+GitHub: https://github.com/hz1165<br/>
 
 # Step 1: Fork this repository
-- The URL of my forked repository
-- The accompanying diagram of what my fork precisely and conceptually represents
+- https://github.com/hz1165/cis411_lab0
+- https://docs.google.com/drawings/d/1E-OQN1gpMkcnwfl1HNVylB2O7GFsJ18u6j2Jwc3G1Yc/edit
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -14,9 +14,9 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "a8ced443-2e85-42d8-a6db-a7859f196ec1",
+      "name": "Howard Zhang",
+      "email": "hz1165@messiah.edu"
     }
   }
 }
