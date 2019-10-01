@@ -9,6 +9,7 @@ The accompanying diagram of what my fork precisely and conceptually represents
 https://docs.google.com/drawings/d/1XnyDNvx4CySERyUQh_7TGzCZSk5WRbbRNFNBDxwDnPc/edit?usp=sharing
 Step 2: Clone your forked repository from the command line
 My GraphQL response from adding myself as an account on the test project
+```
 {
   "data": {
     "mutateAccount": {
@@ -18,6 +19,7 @@ My GraphQL response from adding myself as an account on the test project
     }
   }
 }
+```
 Step 3: Creating a feature branch
 The output of my git commit log
 d2ddea5 (HEAD -> master, origin/master, origin/HEAD) Version 0.0.1 of the lab instructions
@@ -31,6 +33,7 @@ e429c1a lab instructions
 7362cd1 working
 44ce6ae Initial commit
 The accompanying diagram of what my feature branch precisely and conceptually represents
+https://docs.google.com/drawings/d/1amICOGRvqSiRTOhNTL_8t3MmSojMFRfK8WRidiYwxiA/edit?usp=sharing
 Step 4: Setup a Continuous Integration configuration
 What is the .circleci/config.yml doing?
 What do the various sections on the config file do?
