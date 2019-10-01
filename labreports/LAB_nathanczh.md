@@ -95,7 +95,7 @@ Save a cache of node_modules with the current package.json file as the key
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 ```
-Run the command "yarn tests", which will run tests.
+Run the command "yarn test", which will run tests.
 ```yaml
       # run tests!
       - run: yarn test
@@ -116,14 +116,40 @@ It indicates that the build has been committed, and has passed all the written t
 Would add a workflow in CircleCI to automate the staging of the software - after tests have passed, first push it to a development branch / server. Once that instance / codebase has been approved, have a process build to push automatically to the production server.
 
 # Step 5: Merging the feature branch
-* The output of my git commit log
-* A screenshot of the _Jobs_ list in CircleCI
+```
+5f25022 (HEAD -> master, origin/labreport, labreport) Completed lab until step 5
+
+ac20839 Commit to labreport branch, @tangollama and @trevordbunch notice me
+
+dabceca (origin/master, origin/HEAD) Merge pull request #24 from tangollama/circleci
+
+a4096db Create README.md
+
+2f01bf4 Update LAB_INSTRUCTIONS.md
+
+347bd50 Update LAB_INSTRUCTIONS.md
+
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+
+37393ae Bug fixed
+
+1949d2a Update LAB_INSTRUCTIONS.md
+
+d36ad90 Update LAB.md
+
+59ef18a Update LAB_INSTRUCTIONS.md
+
+37be3c8 Update LAB_INSTRUCTIONS.md
+
+97da547 Update LAB.md
+```
+![screenshot of the Jobs list in CircleCI](https://raw.githubusercontent.com/nathanczh/cis411_lab0/master/labreports/step5_sc.png)
 
 # Step 6: Submitting a Pull Request
-_Remember to reference at least one other student in the PR content via their GitHub handle._
 
 # Step 7: [EXTRA CREDIT] Augment the core project
 PR reference in the report to one of the following:
-1. Add one or more unit tests to the core assignment project.
-2. Configure the CircleCI config.yml to automatically build a Docker image of the project.
+
+1. Add one or more unit tests to the core assignment project. **(Done)**
+2. Configure the CircleCI config.yml to automatically build a Docker image of the project. **(Done)**
 3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
