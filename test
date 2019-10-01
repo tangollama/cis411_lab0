@@ -3,3 +3,4 @@
 echo "Performing serious tests..."
 sleep .5
 echo "All tests have passed!"
+exit 0
