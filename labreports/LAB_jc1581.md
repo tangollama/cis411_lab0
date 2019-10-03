@@ -63,6 +63,8 @@ ce1fcea circleci default config
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
+Every time the code is changed in GitHub, CircleCI creates a new Virtual Machine instance that 
+runs tests on that code.
 - What do the various sections on the config file do?
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
