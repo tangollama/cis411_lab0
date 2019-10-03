@@ -64,13 +64,18 @@ ce1fcea circleci default config
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?<br/>
-Every time the code is changed in GitHub, CircleCI creates a new Virtual Machine instance that 
-runs tests on that code.
+The config.yml file basically tells CircleCI everything that it is supposed to do when 
+new code is pushed.
 - What do the various sections on the config file do?<br/>
 We only have one job that is "build". The "docker" section of code specifies the docker image.
-"steps" specifies what code to run like "yarn install" and "yarn test."
-- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
-- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+"steps" specifies what code to run like "yarn install" and "yarn test." "workflows" specifies
+the order in which the jobs are executed.
+- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?<br/>
+Every time the code is changed in GitHub, CircleCI creates a new Virtual Machine instance that 
+runs tests on that code.
+- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?<br/>
+I would need to add tests that ensure that ensure that nothing major is broken in my code when a change is made.
+Furthermore, I would integrate it with Slack so that it could notify me or the team if any tests failed.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
