@@ -64,8 +64,9 @@ mean it will work as intended.
 #5
 Will@WillsComputer MINGW64 ~/Desktop/cis411_lab0 (master)
 $ git log --oneline
-5b7fbf1 (HEAD -> master, labreport) First draft of lab report
-28ea7ad (origin/labreport) Another test commit for lab0 in CIS 411 by William Webb @tangollama
+65e6a4e (HEAD -> master, labreport) Changed LAB_TEST[ww1173].md to LAB_TESTww1173.md
+5b7fbf1 (origin/labreport) First draft of lab report
+28ea7ad Another test commit for lab0 in CIS 411 by William Webb @tangollama
 971d0d7 Test commit for lab0 in CIS 411 by William Webb @tangollama
 dabceca (origin/master, origin/HEAD) Merge pull request #24 from tangollama/circleci
 a4096db Create README.md
@@ -94,5 +95,6 @@ ce1fcea circleci default config
 968099e remove test db
 7362cd1 working
 44ce6ae Initial commit
+
 
 
