@@ -50,10 +50,26 @@ fe1937b more in the lab instructions
 - https://docs.google.com/drawings/d/1VgTXpvHGj9bHgt7FOw1HXDe2mlRGVfGGO1hHv1EXKSk/edit
 
 # Step 4: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?
+- What is the .circleci/config.yml doing? 
+    Config.yml manages the entire process from build to deploy, it has multiple sections for the programmer to 
+    edit directly instead of changing the code. It bascially tells circleCI how to manage the project.
 - What do the various sections on the config file do?
+    Version: The virsion of circle ci you want
+    Jobs: List of jobs this program is going to do
+    Build: Includes three main sections
+      working_directory: specify the working directory
+      Docker: specify which version of Node.js it's using, which pre-built images it's depending on
+      Steps: checking out the dependencies
+             Download and cache the dependencies
+             Run the dependencies
+             save and cache the dependencies for future usages
+             run tests!
+    
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+    when a CI build is successful, it doesn't mean it's ready to use for the program, the programmer still need to implement more steps and tests to make sure it's doing what they desire.
+    
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+    If I continue work on this project in the future, I will probably add more tests and code steps in order to give more functions to the program.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
