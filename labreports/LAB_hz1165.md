@@ -97,7 +97,7 @@ d2ddea5 Version 0.0.1 of the lab isntructions
 ab312fc more progress
 ```
 
-* ![CircleCiJobs](../assets/circleciJobs.png)
+* ![CircleCiJobs](https://github.com/hz1165/cis411_lab0/blob/master/assets/circleciJobs.PNG)
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
