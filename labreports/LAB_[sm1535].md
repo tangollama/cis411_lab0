@@ -54,7 +54,7 @@ https://docs.google.com/drawings/d/1th_i4YCJ5eMtJKx4JLIK9E-a9TwP4nnlLJ2hKVpt5P8/
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
-
+The config.yml creates a vitual machine for the test based off of the specifications in job, build, and docker. From there it aquires any needed dependencies and runs the cloned github project. From here it reviews the outcome and status to ultimately bring back a success or failure report. This is a extremely helpful thing to use because it allows you to precheck deployment to make sure all code will run successfully together and not break when deployed.
 
 - What do the various sections on the config file do?
 Version defines the version of CircleCI
@@ -78,7 +78,31 @@ If the build is successful you could add automatic deployment or integrate unit 
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
+3832ccf (HEAD -> master, origin/master, origin/HEAD) fixing merge conflict
+64a6566 lab report and config track
+518e02b (origin/labreport, labreport) updated lab report and circleci
+57fb0fc creating a feature branch @tangollama
+dabceca Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 (origin/purelab) updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
+ab312fc more progress
+62fb0a5 more progress
+fe1937b more in the lab instructions
 * A screenshot of the _Jobs_ list in CircleCI
+Saved in labreports directory.
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
