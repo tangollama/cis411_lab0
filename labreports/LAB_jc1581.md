@@ -111,8 +111,10 @@ d36ad90 Update LAB.md
 255051e adding template
 ```
 * A screenshot of the _Jobs_ list in CircleCI</br>
+</br>
+</br>
 <img src="CircleCIJobs.png"
-     style="float: left; margin-right: 10px; padding-top: 10px" />
+     style="float: left; margin-right: 10px;" />
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
