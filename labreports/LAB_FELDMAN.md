@@ -38,9 +38,11 @@ Step 4: Setup a Continuous Integration configuration
 What is the .circleci/config.yml doing?
 It is error checking the commit to see if the commit is going to cause errors for the project. I think.
 What do the various sections on the config file do?
+Version shows which version of CircleCI you're using. The Jobs section contains all the tasks that need to be executed. The build is the build of the current job being worked on, and the docker designates which docker to use. I think.
 When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
-It shows that the blends well with the 
+It shows that the changes to the existing file blend well and that no errors were produced. This means the code is sound.
 If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+
 Step 5: Merging the feature branch
 The output of my git commit log
 A screenshot of the Jobs list in CircleCI
