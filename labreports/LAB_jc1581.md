@@ -112,7 +112,6 @@ d36ad90 Update LAB.md
 ```
 * A screenshot of the _Jobs_ list in CircleCI</br>
 </br>
-</br>
 <img src="CircleCIJobs.png"
      style="float: left; margin-right: 10px;" />
 
