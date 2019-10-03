@@ -37,8 +37,9 @@ https://docs.google.com/drawings/d/1amICOGRvqSiRTOhNTL_8t3MmSojMFRfK8WRidiYwxiA/
 Step 4: Setup a Continuous Integration configuration
 What is the .circleci/config.yml doing?
 It is error checking the commit to see if the commit is going to cause errors for the project. I think.
+It does this by pulling the code from the repository and creating a virtual instance to test and make sure everything is working.
 What do the various sections on the config file do?
-Version shows which version of CircleCI you're using. The Jobs section contains all the tasks that need to be executed. The build is the build of the current job being worked on, and the docker designates which docker to use. I think.
+Version shows which version of CircleCI you're using. The Jobs section contains all the tasks that need to be executed. The build is the build of the current job being worked on, and the docker designates which docker to use. Image dictates which version of node to use, steps explains the build process, yarn install downloads anything circleci needs for the test, yarn test tests the code. I think. This is all super confusing to me, I tried to get it explained by friends.
 When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
 It shows that the changes to the existing file blend well and that no errors were produced. This means the code is sound.
 If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
