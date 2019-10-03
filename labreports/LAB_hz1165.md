@@ -50,30 +50,54 @@ fe1937b more in the lab instructions
 - https://docs.google.com/drawings/d/1VgTXpvHGj9bHgt7FOw1HXDe2mlRGVfGGO1hHv1EXKSk/edit
 
 # Step 4: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing? 
+- What is the .circleci/config.yml doing? <br/>
     Config.yml manages the entire process from build to deploy, it has multiple sections for the programmer to 
     edit directly instead of changing the code. It bascially tells circleCI how to manage the project.
-- What do the various sections on the config file do?
-    Version: The virsion of circle ci you want
-    Jobs: List of jobs this program is going to do
-    Build: Includes three main sections
-      working_directory: specify the working directory
-      Docker: specify which version of Node.js it's using, which pre-built images it's depending on
-      Steps: checking out the dependencies
-             Download and cache the dependencies
-             Run the dependencies
-             save and cache the dependencies for future usages
-             run tests!
+- What do the various sections on the config file do?<br/>
+    Version: The virsion of circle ci you want<br/>
+    Jobs: List of jobs this program is going to do<br/>
+    Build: Includes three main sections<br/>
+      working_directory: specify the working directory<br/>
+      Docker: specify which version of Node.js it's using, which pre-built images it's depending on<br/>
+      Steps: checking out the dependencies<br/>
+             Download and cache the dependencies<br/>
+             Run the dependencies<br/>
+             save and cache the dependencies for future usages<br/>
+             run tests!<br/>
     
-- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
-    when a CI build is successful, it doesn't mean it's ready to use for the program, the programmer still need to implement more steps and tests to make sure it's doing what they desire.
+- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?<br/>
+when a CI build is successful, it doesn't mean it's ready to use for the program, the programmer still need to implement more steps and tests to make sure it's doing what they desire.<br/>
     
-- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
-    If I continue work on this project in the future, I will probably add more tests and code steps in order to give more functions to the program.
+- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?<br/>
+  If I continue work on this project in the future, I will probably add more tests and code steps in order to give more functions to the program.
 
 # Step 5: Merging the feature branch
-* The output of my git commit log
-* A screenshot of the _Jobs_ list in CircleCI
+```
+7787d12 (HEAD -> master, labreport) finished step 4
+8853b23 (origin/labreport) Update LAB_hz1165.md
+e1a747c Update LAB_hz1165.md
+d723bbd Update LAB_hz1165.md
+7d0874d created lab report, ref:@tangollama
+dabceca (origin/master, origin/HEAD) Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 (origin/purelab) updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
+ab312fc more progress
+```
+
+* ![CircleCiJobs](../assets/circleciJobs.png)
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
