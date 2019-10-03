@@ -78,7 +78,7 @@ d36ad90 Update LAB.md
 
 ```
 * A screenshot of the _Jobs_ list in CircleCI
-![Screenshot of Jobs List in CircleCI](/labreports/Images/Screenshot.PNG)
+![Screenshot of Jobs List in CircleCI](/labreports/Images/Screenshot.png)
 
 
 # Step 6: Submitting a Pull Request
