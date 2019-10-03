@@ -3,6 +3,7 @@ Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
 Name: Josh Coldsmith<br/>
 GitHub: [jc1581](https://github.com/jc1581)<br/>
+[SymPRM](https://github.com/CISMessiahCollege/SymPRM.git)
 
 # Step 1: Fork this repository
 - The URL of [my forked repository](https://github.com/jc1581/cis411_lab0)
@@ -62,10 +63,12 @@ ce1fcea circleci default config
      style="float: left; margin-right: 10px;" />
 
 # Step 4: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?
+- What is the .circleci/config.yml doing?<br/>
 Every time the code is changed in GitHub, CircleCI creates a new Virtual Machine instance that 
 runs tests on that code.
-- What do the various sections on the config file do?
+- What do the various sections on the config file do?<br/>
+We only have one job that is "build". The "docker" section of code specifies the docker image.
+"steps" specifies what code to run like "yarn install" and "yarn test."
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
