@@ -7,6 +7,7 @@ GitHub: (https://github.com/cc1418)<br/>
 # Step 1: Fork this repository
 - https://github.com/cc1418/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
+![Diagram of what my fork precisely and accurately represents](/Images/Step1.PNG)
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -45,6 +46,7 @@ d36ad90 Update LAB.md
 
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
+![Diagram of what my feature branch precisely and conceptually represents](/Images/Step3.PNG)
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
