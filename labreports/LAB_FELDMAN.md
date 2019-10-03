@@ -45,7 +45,34 @@ It shows that the changes to the existing file blend well and that no errors wer
 If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
 Step 5: Merging the feature branch
+
 The output of my git commit log
+
+d7b74f2 (HEAD -> master, origin/master, origin/HEAD) Finished Lab Report
+0428c7b Changes to lab reports file.
+5dd212d (labreport) Commiting changes to feature branch.
+a3abcde (origin/labreport) Just a random commit
+3249302 Commit 1 @tangollama
+dabceca (lapreport) Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 (origin/purelab) updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
+ab312fc more progress
+62fb0a5 more progress
+
+
 A screenshot of the Jobs list in CircleCI
 Step 6: Submitting a Pull Request
 Remember to reference at least one other student in the PR content via their GitHub handle.
