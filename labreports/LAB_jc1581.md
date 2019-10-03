@@ -110,7 +110,7 @@ d36ad90 Update LAB.md
 4562cd8 added npm and node install repreq
 255051e adding template
 ```
-* A screenshot of the _Jobs_ list in CircleCI
+* A screenshot of the _Jobs_ list in CircleCI</br>
 <img src="CircleCIJobs.png"
      style="float: left; margin-right: 10px;" />
 
