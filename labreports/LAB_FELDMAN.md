@@ -9,7 +9,7 @@ The accompanying diagram of what my fork precisely and conceptually represents
 https://docs.google.com/drawings/d/1XnyDNvx4CySERyUQh_7TGzCZSk5WRbbRNFNBDxwDnPc/edit?usp=sharing
 Step 2: Clone your forked repository from the command line
 My GraphQL response from adding myself as an account on the test project
-```
+``` JSON
 {
   "data": {
     "mutateAccount": {
@@ -36,8 +36,10 @@ The accompanying diagram of what my feature branch precisely and conceptually re
 https://docs.google.com/drawings/d/1amICOGRvqSiRTOhNTL_8t3MmSojMFRfK8WRidiYwxiA/edit?usp=sharing
 Step 4: Setup a Continuous Integration configuration
 What is the .circleci/config.yml doing?
+It is error checking the commit to see if the commit is going to cause errors for the project. I think.
 What do the various sections on the config file do?
 When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+It shows that the blends well with the 
 If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 Step 5: Merging the feature branch
 The output of my git commit log
