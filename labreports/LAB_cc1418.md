@@ -52,7 +52,7 @@ d36ad90 Update LAB.md
 - What is the .circleci/config.yml doing?
 - Config.yml runs a set of steps to build the project from the source code in a designated spot i.e. the repo.
 - What do the various sections on the config file do?
-- The version key in the config specifies what version of circleci to use. Build is a job for the file to run, and working directory specifies where the job’s steps run, here being the in the repo. Docker is the environment where the steps of the job are. Image specified in docker is the container where the steps for the job execute. The checkout step gets the source code for the specified version and image. Restore Cache will get cached files from previous runs to save time if the file has been run before and the cache has been saved. Run yarn install is a step to install yarn, and save cache stores source code so it won’t need to be fetched each time. Test is run to make sure yarn was installed properly. 
+- The version key in the config specifies what version of circleci to use. Build is a job for the file to run, and working directory specifies where the jobâ€™s steps run, here being the in the repo. Docker is the environment where the steps of the job are. Image specified in docker is the container where the steps for the job execute. The checkout step gets the source code for the specified version and image. Restore Cache will get cached files from previous runs to save time if the file has been run before and the cache has been saved. Run yarn install is a step to install yarn, and save cache stores source code so it wonâ€™t need to be fetched each time. Test is run to make sure yarn was installed properly. 
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
 - When the build is successful, it means code is working properly with itself in the repo.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
@@ -70,3 +70,6 @@ PR reference in the report to one of the following:
 1. Add one or more unit tests to the core assignment project. 
 2. Configure the CircleCI config.yml to automatically build a Docker image of the project.
 3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2MjA3NTE1OV19
+-->
