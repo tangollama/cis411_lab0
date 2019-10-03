@@ -74,7 +74,7 @@ the order in which the jobs are executed.**
 **Every time the code is changed in GitHub, CircleCI creates a new Virtual Machine instance that 
 runs tests on that code.**
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?<br/>
-**I would need to add tests that ensure that ensure that nothing major is broken in my code when a change is made.
+**I would need to add tests that ensure that nothing major is broken in my code when a change is made.
 Furthermore, I would integrate it with Slack so that it could notify me or the team if any tests failed.**
 
 # Step 5: Merging the feature branch
