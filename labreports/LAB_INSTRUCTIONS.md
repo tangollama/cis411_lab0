@@ -86,3 +86,6 @@ For the purposes of gaining 10%, 20% _or even more extra credit_ on the assignme
 3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
 
 **Note this work in your lab report** by submitting it in your PR and linking to either the PR or the specific commit as recorded in GitHub in your lab report.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjMzMDYxNDU2XX0=
+-->
