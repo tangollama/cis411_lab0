@@ -79,7 +79,40 @@ Furthermore, I would integrate it with Slack so that it could notify me or the t
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
+```
+f786c88 (HEAD -> master, origin/master, origin/HEAD) Merge pull request #1 from jc1581/labreport
+97ad3d0 (origin/labreport, labreport) update lab report
+b979d99 update lab report
+55988d0 update lab report
+71616a6 update lab report
+894b981 update lab report
+892f6dc Create mkdir
+3005c5c Delete mkdir .circleci
+9e23fc7 Create mkdir .circleci
+129d7ac updated lab report
+f19a587 update lab report
+a004121 update lab report
+021d644 Update LAB_jc1581.md
+ddd3057 updated lab report
+e9b008e @tangollama added lab report
+dabceca Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 (origin/purelab) updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+```
 * A screenshot of the _Jobs_ list in CircleCI
+<img src="CirclCIJobs.png"
+     style="float: left; margin-right: 10px;" />
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
