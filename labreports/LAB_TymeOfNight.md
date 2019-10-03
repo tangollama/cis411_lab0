@@ -3,6 +3,7 @@ Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
 Name: Justin Kim<br/>
 GitHub: [TymeOfNight](https://github.com/TymeOfNight)<br/>
+Starred Repo: [Tangollama's CIS 411 Lab 1 Repo](https://github.com/tangollama/cis411_lab0)</br>
 
 # Step 1: Fork this repository
 - The URL of my forked repository: [https://github.com/TymeOfNight/cis411_lab0](https://github.com/TymeOfNight/cis411_lab0)
