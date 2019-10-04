@@ -7,10 +7,11 @@ GitHub: Leanne-Weaver (https://github.com/Leanne-Weaver)<br/>
 # Step 1: Fork this repository
 - The URL of my forked repository
 	https://github.com/Leanne-Weaver/cis411_lab0
-- The accompanying diagram of what my fork precisely and conceptually represents
+- The accompanying diagram of what my fork precisely and conceptually represents. 
 (Additional branches, develop and feature_1, were used to demonstrate the difference between a fork and a merge, 
 as well as the difference between a merge and a pull request.)
 ![Git Diagram: Step 1](../assets/Git_Diagram_Step1.jpg)
+
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
 ```
@@ -57,8 +58,11 @@ fe1937b more in the lab instructions
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?<br/>
+
 This is a YAML (YAML Ain't Markup Language) file that identifies how the testing environment will be set up, along with the kind of tests that will be run.<br/>
+
 - What do the various sections on the config file do?<br/>
+
 The ```version``` portion specifies which version of CircleCI will be used.
 The ```jobs``` portion contains instructions for jobs that CircleCI might execute.
 The ```build``` is one of the jobs. In ```docker```, a Docker image is specified, which will be the job's primary container for when CircleCI launches a virtual environment.
@@ -71,9 +75,15 @@ Finally, ```yarn test``` is ran by CircleCI to ensure that it was installed succ
 The ```workflows``` is a set of rules for defining a collection of jobs and their execution order.
 
 I used CircleCI documentation, [Adding a YML File](https://circleci.com/docs/2.0/getting-started/#adding-a-yml-file), [Workflows Overview](https://circleci.com/docs/2.0/workflows/#overview), and [Caching](https://circleci.com/docs/2.0/caching/), to inform me about the portions of the code used.<br/>
+
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?<br/>
-When a build is successful, that means that there were no errors when CircleCI was following the instructions specified in the .yaml file; the environment was spun, the workflows executed, and the jobs completed.
+
+When a build is successful, that means that there were no errors when CircleCI was following the instructions specified in the .yaml file. The environment was spun, the workflows were executed, and the jobs were completed.
+
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?<br/>
+
+If this project were to move into Continuous Delivery, I'd add Rollbar to track errors after deployment and identify which code changes caused those errors.
+(I used [this blog](https://circleci.com/blog/tracking-errors-after-deployments-with-rollbar-and-circleci/) and [that blog](https://circleci.com/blog/persisting-data-in-workflows-when-to-use-caching-artifacts-and-workspaces/) from CircleCI to help me brainstorm.)
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
@@ -126,7 +136,7 @@ ab312fc more progress
 fe1937b more in the lab instructions                                            
 3e807fb first section                                                     
 ```
-* A screenshot of the _Jobs_ list in 
+* A screenshot of the _Jobs_ list in CircleCI
 ![Jobs List in CircleCI](../assets/circleci_screenshot.png)
 
 # Step 6: Submitting a Pull Request
