@@ -7,7 +7,7 @@ GitHub: [tran1996](https://github.com/YOUR_HANDLE)<br/>
 # Step 1: Fork this repository
 - https://github.com/tran1996/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
-  img src="C:\Users\Thao\Documents\CIS411\cis411_lab0\labreports\Forked Repository"
+  img src="C:\Users\Thao\Documents\CIS411\cis411_lab0\assets\Forked Repository"
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -51,7 +51,7 @@ fe1937b more in the lab instructions
 
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
-  img src="C:\Users\Thao\Documents\CIS411\cis411_lab0\labreports\Branched Forked Repository"
+  img src="C:\Users\Thao\Documents\CIS411\cis411_lab0\assets\Branched Forked Repository"
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
