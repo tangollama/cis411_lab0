@@ -23,25 +23,44 @@ Followed Repository: SymPRM(https://github.com/CISMessiahCollege/SymPRM)<br/>
 
 # Step 3: Creating a feature branch
 - The output of my git commit log
-```
-d2ddea5 (HEAD -> master, origin/master, origin/HEAD) Version 0.0.1 of the lab instructions
+7b0b90e (HEAD -> labreport, origin/labreport) Commiting LAB_mb1628 based of template by @tangollama
+dabceca (origin/master, origin/HEAD, master) Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 (origin/purelab) updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
 ab312fc more progress
 62fb0a5 more progress
 fe1937b more in the lab instructions
 3e807fb first section
 9ae6b83 remove LAB.md
 e429c1a lab instructions
+ce1fcea circleci default config
+80bbdbb circleci default config
 968099e remove test db
 7362cd1 working
 44ce6ae Initial commit
-```
-- The accompanying diagram of what my feature branch precisely and conceptually represents
+
+- [Clone Representaion Diagram](https://docs.google.com/drawings/d/1c9DnNumqXj9wBFIcHbhiG-3F6QhDZwpItFZOineDz8s/edit?usp=sharing)
 
 # Step 4: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?
-- What do the various sections on the config file do?
-- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
-- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+- Looks like everytime you push your code to git hub the config file runs tests on a seperate instance of your code and sends the results to circleci.com for you to review the results. I believe the main reasoning behind it is to test integration of files. Circleci tests a seperate instance of the integration to see if there are any issues with integration.
+- Image determines the primary container image where all steps will run.
+Name specifies the name the container is reachable through.
+Command specifies what the container is to do with it's data when testing.
+- It indecates that the build is done well, and the code is adaptable enough for continuous integration.
+- I would add additional tests for the different features of the code, so when files are updated any minor errors are caught and no major issues occur.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
