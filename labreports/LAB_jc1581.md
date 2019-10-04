@@ -1,5 +1,5 @@
 # Lab Report Template for CIS411_Lab0
-Course: Messiah College CIS 411, Fall 2018<br/>
+Course: Messiah College CIS 411, Fall 2019<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
 Name: Josh Coldsmith<br/>
 GitHub: [jc1581](https://github.com/jc1581)<br/>
