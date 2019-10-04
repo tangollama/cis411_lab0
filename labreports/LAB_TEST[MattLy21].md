@@ -70,8 +70,9 @@ https://docs.google.com/drawings/d/1TT7-13IjkN0zJJzgwMkLfRnkeSNL0c1n16nIBGdjczk/
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
 1. Builds image "circleci/nod:10.3" and then runs the install and then runs test
-2. The software will compile in the right order but it wouldn't be correct
-3. A way that you are not able to upload bad information.
+2. The version section specifies the version to be used and the job section outlines the steps on what needs to be done. The workflow section defines a collection of jobs and it specifies the run order.
+3. It is able to create an environment that executes without errors.
+4. To have a continuous development so when there is a successful thing uploaded you are able to keep things up to date. 
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
