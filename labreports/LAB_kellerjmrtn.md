@@ -59,9 +59,15 @@ ce1fcea circleci default config
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
+  - The config.yml file contains properties and configuration information that CircleCi uses to build and test the code.
 - What do the various sections on the config file do?
+  - The docker section specifies the version of CircleCi to be used for this project
+  - The working_directory section specifies which code we would like to test. In this case, we use ~/repo to note that we want to use the root directory of the entire repo
+  - Lastly, the steps section specifies how the test procedure will be run. Here we load up our dependencies and node modules, and spin up a test instance.
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+  - This merely means that it has passed all of the tests. This certainly doesn't guarentee that your new code *hasn't broken anything*, but it will help to find some easily checkable errors that you might've introduced.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+  - I would write some tests specific to this project, to verify that everything is going as expected
 
 # Step 5: Merging the feature branch
 - The output of my git commit log
@@ -104,8 +110,3 @@ ce1fcea circleci default config
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
 
-# Step 7: [EXTRA CREDIT] Augment the core project
-PR reference in the report to one of the following:
-1. Add one or more unit tests to the core assignment project. 
-2. Configure the CircleCI config.yml to automatically build a Docker image of the project.
-3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
