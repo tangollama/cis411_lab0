@@ -141,3 +141,5 @@ PR reference in the report to one of the following:
 1. Add one or more unit tests to the core assignment project. 
 2. Configure the CircleCI config.yml to automatically build a Docker image of the project.
 3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
+*************************************************************************************88
+Something strange happened. I explained in the last commit message, but I did not push my latest results for the PR, so when I did git bash crashed and caused me some errors, so I uploaded this file separately outside of Git Bash. 
