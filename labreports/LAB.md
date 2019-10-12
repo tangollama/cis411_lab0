@@ -1,13 +1,20 @@
-# Lab Report Template for CIS411_Lab0
-Course: Messiah College CIS 411, Fall 2018<br/>
-Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
-Name: YOUR NAME<br/>
-GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
+Course: Messiah College CIS 411, Fall 2019 <br>
+Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br>
+Name: Michael Williams <br>
+GitHub: mw1421 (https://github.com/mw1421)
 
 # Step 1: Fork this repository
 - The URL of my forked repository
-- The accompanying diagram of what my fork precisely and conceptually represents
-
+    https://github.com/mw1421/cis411_lab0.git
+- [The accompanying diagram of what my fork precisely and conceptually represents](https://docs.google.com/drawings/d/1Bzt8FWsGmBR3BQx8DZTcdofMr4r-zwmvKyvC2-N595A/edit?usp=sharing)
+    tangollama's repository is like the master of the master branches in the project. 
+    It is the originator of the projects, so everyone can pull from that repository,
+    but not every fork can communicate with each other. Say Caleb Weaver also forked
+    from tangollama's repo. He can merge back to the master of the masters, but he 
+    could not merge with my own branch. You can only go to the original repository. 
+    My fork off of my forked repository is like the relationship between tangollama's
+    repository and my master repository. I can merge them when I want, but I cannot 
+    merge my forked repository with Caleb Weaver's forked forked repository. 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
 ```
