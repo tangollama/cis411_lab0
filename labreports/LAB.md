@@ -1,12 +1,12 @@
 # Lab Report Template for CIS411_Lab0
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
-Name: YOUR NAME<br/>
-GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
+Name: Reagan Lyle<br/>
+GitHub: [reaganl1998](https://github.com/reaganl1998)<br/>
 
 # Step 1: Fork this repository
-- The URL of my forked repository
-- The accompanying diagram of what my fork precisely and conceptually represents
+- The URL of my forked repository:  https://github.com/reaganl1998/cis411_lab0 
+- The accompanying diagram of what my fork precisely and conceptually represents: [here](https://www.draw.io/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=lab0.drawio#RzZRRT4MwEIB%2FDY8mQM0cr5tzi9GnmRh9O%2BkJNYUj3TGGv94yyhhhWzTRxCfar3e569cWT8yz3dJAkT6SRO2Fvtx54tYLw8APr%2B2nIXVLriMHEqOkC%2BrBWn1il%2BloqSRuBoFMpFkVQxhTnmPMAwbGUDUMeyc9rFpAgiOwjkGP6bOSnLZ0Gt70fIUqSbvKwSRqVzLogt1ONilIqo6QWHhiboi4HWW7OepGXuelzbs7s3pozGDO30mYxi%2Br1ycMQileluX9W7FWsyt3GFvQpduwa5brzgBKK8RNyXBKCeWgFz2dGSpziU0Z3876mAeiwsLAwg9krt3pQslkUcqZdqttzabQ2b05tKHSxHhhQ90dAZMgX4gThxOwVxcpQza1zTOogdV22Ae4O5Qc4nrNduBM%2F8B6MLLOkCekNWSwb6Kg0TH0khtjVaoY1wXsXVT26Z0SukXDuLusdKzAJQjh7m3dPUg3r%2FpnEISiZenRE5j4f2RNjKwZhARyHUTR9N9qi05p839Fm532v4%2F92tFPWCy%2BAA%3D%3D)
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -14,9 +14,9 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "6b89f7ea-6246-4726-b5ed-e3858e3488c0",
+      "name": "REAGAN LYLE",
+      "email": "RL1299@MESSIAH.EDU"
     }
   }
 }
