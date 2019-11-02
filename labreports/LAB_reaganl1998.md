@@ -60,10 +60,10 @@ ce1fcea circleci default config
 - The accompanying diagram of what my feature branch precisely and conceptually represents [reaganl1998's Feature Branch Diagram](https://www.draw.io/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=lab0_second_drawing.drawio#R1VZdb5swFP01PFbCmDXktVmaVdrUSZk0bS%2BTC7fYk%2FFlziUk%2B%2FWzgwlBtF0qTWv7hO%2B5X77HxzIRX1S7lRW1%2FIQF6CiJi13E30dJwuIkdR%2BP7DsknQegtKoIQQOwVr%2BhzwxoowrYjAIJUZOqx2COxkBOI0xYi%2B047B71uGstSpgA61zoKfpVFSQ7NEtmA%2F4BVCn7zuxy3nkq0QeHSTZSFNieQHwZ8YVFpG5V7RagPXk9L13e9SPe48YsGDor4fsFpKt7czP7tbr9diur6%2FbLRaiyFboJA1sQpTCazeeZq5WrTcrYDy3u%2Bilo31NjsTEF%2BOos4letVATrWuTe2zoxOExSpYM79AFLsHt0AHakxekJsAKyexcSEnga9hCkxC6D3Q4Hw94FTJ4cSh8nghbKY%2BmBLrcIjD2DvdmEvQlJUDg5BRMtSSzRCL0c0KuBxthZQ8xHxDqQ9xOI9uFuiIbwIWp9o6eJdfvCxubwxEA83DBhS6C%2FyWZ6UBa0ILUd7%2BOfs84nrN8YRUr4xAVWlaIXl2rK%2BEiqyUNSTf6nVNn0pr9xrWZnapW%2FpFazCeufLeYAhTLlUa4bt0Knt9Y6XXqjtrBV2Bxw4xHXPL5ryL9zUpjyEOQo8%2B8q5k3luHOH8tpEn8Znij57vuidObycB9%2FJ%2Fwdf%2FgE%3D)
 
 # Step 4: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?
-- What do the various sections on the config file do?
-- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
-- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+- What is the .circleci/config.yml doing? **I believe it is a way for yml to script and automate your GitHub development environment. **
+- What do the various sections on the config file do? **They are parameters to setup certain functions of circleci. Similar to how a config file works on most programs.**
+- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build? **Indicates that your code will compile correctly. However, whether it functions correctly is up to the programmer.**
+- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)? **Create more projects to have separate environments for development, testing, and production/release.**
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
