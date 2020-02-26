@@ -6,7 +6,8 @@ GitHub: [eric-weischedel](https://github.com/eric-weischedel)<br/>
 
 # Step 1: Fork this repository
 - The [URL](https://github.com/eric-weischedel/cis411_lab0) of my forked repository
-- The accompanying diagram of what my fork precisely and conceptually represents
+- The accompanying diagram of what my fork precisely and conceptually represents<br/>
+![Fork](images/fork.jpg)
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -25,18 +26,22 @@ GitHub: [eric-weischedel](https://github.com/eric-weischedel)<br/>
 # Step 3: Creating a feature branch
 - The output of my git commit log
 ```
-d2ddea5 (HEAD -> master, origin/master, origin/HEAD) Version 0.0.1 of the lab instructions
-ab312fc more progress
-62fb0a5 more progress
-fe1937b more in the lab instructions
-3e807fb first section
-9ae6b83 remove LAB.md
-e429c1a lab instructions
-968099e remove test db
-7362cd1 working
-44ce6ae Initial commit
+eb43391 (HEAD -> labreport, origin/labreport) Updating labreport @tangollama
+7bea9dd (master) Adding my lab report @tangollama
+dabceca (origin/master, origin/HEAD) Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents
+- The accompanying diagram of what my feature branch precisely and conceptually represents<br/>
+![Feature Branch](images/featurebranch.jpg)
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
