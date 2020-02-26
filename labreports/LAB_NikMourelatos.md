@@ -7,7 +7,7 @@ GitHub: [Starred repo](https://github.com/vmt/udis86)<br/>
 
 # Step 1: Fork this repository
 - https://github.com/NikMourelatos/cis411_lab0.git
-- ![](images/forkRepresentationFinal.jpg)
+- ![](images/ForkRepresentationFinal.jpg)
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
