@@ -25,13 +25,32 @@ GitHub: [YOUR_HANDLE](https://github.com/NikMourelatos)<br/>
 # Step 3: Creating a feature branch
 - The output of my git commit log
 ```
-d2ddea5 (HEAD -> master, origin/master, origin/HEAD) Version 0.0.1 of the lab instructions
+7316627 (HEAD -> labreport, origin/labreport) NikMourelatos commit 2  @tangollama
+f45d84a NikMourelatos committ @tangollama
+dabceca (origin/master, origin/HEAD, master) Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 (origin/purelab) updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
 ab312fc more progress
 62fb0a5 more progress
 fe1937b more in the lab instructions
 3e807fb first section
 9ae6b83 remove LAB.md
 e429c1a lab instructions
+ce1fcea circleci default config
+80bbdbb circleci default config
 968099e remove test db
 7362cd1 working
 44ce6ae Initial commit
@@ -39,9 +58,13 @@ e429c1a lab instructions
 - The accompanying diagram of what my feature branch precisely and conceptually represents
 
 # Step 4: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?
-- What do the various sections on the config file do?
-- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+- The config.yml file is allowing our repo to have continuous integration, this is being done by the config file whic deploys your repo with the selected configurations that are needed in order to run/ test your project.
+- * orbs are packages that you want in your build 
+  * jobs are what run your build process, inside our job we have the build which is used to run when we push our code.
+  * inside our build we define the enviorment to run our project, which in this case is node/default
+  * Also present inside our build processs we have the steps which would be the command line commands that we use in order to run/ test our program. In this case we have git check out which creates a branch to the working tree and then npm install and npm start which are used to test if ourproject is working correctly.
+  * lastly, we have the workflow, this is used to pipeline the continuous integration of the project directing how the project is ran and tested. Present in ours we have build and test and jobs which causes those jobs to run.
+- When a CI build is succesful it shows that the code is able to compile and run currectly.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
 # Step 5: Merging the feature branch
