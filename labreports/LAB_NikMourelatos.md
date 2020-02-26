@@ -3,10 +3,11 @@ Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
 Name: Nik Mourelatos<br/>
 GitHub: [YOUR_HANDLE](https://github.com/NikMourelatos)<br/>
+GitHub: [Starred repo](https://github.com/vmt/udis86)<br/>
 
 # Step 1: Fork this repository
 - https://github.com/NikMourelatos/cis411_lab0.git
-- The accompanying diagram of what my fork precisely and conceptually represents
+- ![](images/forkRepresentation.jpg)
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
