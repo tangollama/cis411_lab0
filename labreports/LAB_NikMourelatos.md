@@ -7,6 +7,7 @@ GitHub: [Starred repo](https://github.com/vmt/udis86)<br/>
 
 # Step 1: Fork this repository
 - https://github.com/NikMourelatos/cis411_lab0.git
+### Forking a branch depiction
 ![](images/ForkRepresentationComplete.jpg)
 
 # Step 2: Clone your forked repository from the command line
@@ -56,6 +57,7 @@ ce1fcea circleci default config
 7362cd1 working
 44ce6ae Initial commit
 ```
+### Feature Branch Depiction
 ![](images/BranchRepresentation.jpg)
 
 # Step 4: Setup a Continuous Integration configuration
@@ -70,7 +72,7 @@ ce1fcea circleci default config
   * Also present inside our build processs we have the steps which would be the command line commands that we use in order to run/ test our program. In this case we have git check out which creates a branch to the working tree and then npm install and npm start which are used to test if ourproject is working correctly.
 - Workflows
   * lastly, we have the workflow, this is used to pipeline the continuous integration of the project directing how the project is ran and tested. Present in ours we have build-and-test and jobs which causes those jobs to run in that order.
-  ### Visualization of process
+  ### Visualization of continuous integreation process
    ![](images/CircleCIDemonstration.jpg)
 - When a CI build is succesful it shows that the code that is pushed is able to compile and run currectly.
 - The configuration would need to make sure that all the code collectively is running how it is intended and then deploy everything to the correct production server.
@@ -121,13 +123,6 @@ ce1fcea circleci default config
 7362cd1 working
 44ce6ae Initial commit
 ```
+## CircleCI Jobs Confirmation
 ![](images/Jobs.png)
 
-# Step 6: Submitting a Pull Request
-_Remember to reference at least one other student in the PR content via their GitHub handle._
-
-# Step 7: [EXTRA CREDIT] Augment the core project
-PR reference in the report to one of the following:
-1. Add one or more unit tests to the core assignment project. 
-2. Configure the CircleCI config.yml to automatically build a Docker image of the project.
-3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
