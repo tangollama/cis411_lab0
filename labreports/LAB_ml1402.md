@@ -1,12 +1,15 @@
 # Lab Report Template for CIS411_Lab0
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
-Name: YOUR NAME<br/>
-GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
+Name: Matthew Laven<br/>
+GitHub: [ml1402](https://github.com/YOUR_HANDLE)<br/>
 
 # Step 1: Fork this repository
-- The URL of my forked repository
+- The URL of my forked repository: 
+[My Link](https://github.com/ml1402/cis411_lab0)
 - The accompanying diagram of what my fork precisely and conceptually represents
+- A fork of a project is a seperate entity than the original project itself, giving the new developer full control over the fork. A branch is just a temporary fork that is meant to be re-implemented into the original codebase once modifications are done. 
+![Fork Diagram](StepOneDiagram.png)
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -14,12 +17,13 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "b45db004-59da-45f9-8693-97f862f0dc7e",
+      "name": "Matt Laven",
+      "email": "ml1402@messiah.edu"
     }
   }
 }
+
 ```
 
 # Step 3: Creating a feature branch
@@ -37,8 +41,13 @@ e429c1a lab instructions
 44ce6ae Initial commit
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
+![Diagram of a Branch of the Lab](StepThreeDiagram.png)
 
 # Step 4: Setup a Continuous Integration configuration
+## What CircleCI is doing:
+```
+INSERT DESCRIPTION
+```
 - What is the .circleci/config.yml doing?
 - What do the various sections on the config file do?
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
@@ -47,6 +56,7 @@ e429c1a lab instructions
 # Step 5: Merging the feature branch
 * The output of my git commit log
 * A screenshot of the _Jobs_ list in CircleCI
+![CircleCI is functioning](CircleCI.png)
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
