@@ -72,7 +72,51 @@ ce1fcea circleci default config
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
-* A screenshot of the _Jobs_ list in CircleCI
+```
+6f3ffe4 (HEAD -> master, origin/master, origin/labreport, origin/HEAD, labreport) Push for markdown image test
+b7a21cc Push for markdown image test
+8579b86 Push for markdown image test
+db78322 Push for markdown image test
+82793a4 Push for markdown image test
+496ba66 Push for markdown image test
+306cf84 Push for markdown image test
+8184625 Push for markdown image test
+1040e4c Push for markdown image test
+2ddb589 Push for markdown image test
+b738db5 Push for markdown image test
+8049b03 NikMourelatos commit 4  @tangollama
+5542d0b NikMourelatos commit 3  @tangollama
+7316627 NikMourelatos commit 2  @tangollama
+f45d84a NikMourelatos committ @tangollama
+dabceca Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 (origin/purelab) updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
+ab312fc more progress
+62fb0a5 more progress
+fe1937b more in the lab instructions
+3e807fb first section
+9ae6b83 remove LAB.md
+e429c1a lab instructions
+ce1fcea circleci default config
+80bbdbb circleci default config
+968099e remove test db
+7362cd1 working
+44ce6ae Initial commit
+```
+![](images/Jobs.png)
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
