@@ -45,9 +45,24 @@ d36ad90 Update LAB.md
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
+  - The config file is configuring various options for CircleCI, a continuous integration system.
 - What do the various sections on the config file do?
+  - Version
+    - Declares the version of CircleCI. In our example, we are using version 2.1.
+  - Orbs
+    - Packages that you can pull in and use in your pipeline, e.g. Slack. In our example, we pull in Node.
+  - Jobs
+    - A job is a collection of steps in your build process.
+    - Executor
+      - Defines the underlying technology or environment in which to run a job. In our example, it is Node.
+    - Steps
+      - Executable commands which are run during a job. In our example, we have `checkout`, `npm install`, and `npm test`.
+  - Workflows
+    - Sets of rules for defining a collection of jobs and their run order. In our example, we only have one workflow: `build-and-test`, which runs our job `build-and-test`.
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+  - The build did not have errors. The changes introduced in the push integrate well with the project and do not break anything.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+  - The job would need to deploy the branch to the production server.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
