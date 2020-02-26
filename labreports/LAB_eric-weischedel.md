@@ -3,6 +3,7 @@ Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
 Name: Eric Weischedel<br/>
 GitHub: [eric-weischedel](https://github.com/eric-weischedel)<br/>
+Repository I star: [react-native-paper](https://github.com/callstack/react-native-paper)
 
 # Step 1: Fork this repository
 - The [URL](https://github.com/eric-weischedel/cis411_lab0) of my forked repository
@@ -60,9 +61,9 @@ d36ad90 Update LAB.md
   - Workflows
     - Sets of rules for defining a collection of jobs and their run order. In our example, we only have one workflow: `build-and-test`, which runs our job `build-and-test`.
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
-  - The build did not have errors. The changes introduced in the push integrate well with the project and do not break anything.
+  - The build did not have errors. The changes introduced in the push integrate well with the project and do not break anything. In our example, whatever tests are done in `npm test` have passed.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
-  - The job would need to deploy the branch to the production server.
+  - Continuous delivery means the project is deployed whenever you push your changes. The job would need to deploy the branch to the production server.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
