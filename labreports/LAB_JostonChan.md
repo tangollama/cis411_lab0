@@ -92,7 +92,8 @@ ce1fcea circleci default config
 80bbdbb circleci default config
 968099e remove test db
 7362cd1 working
-* A screenshot of the _Jobs_ list in CircleCI
+* A screenshot of the _Jobs_ list/Pipeline in CircleCI
+
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
