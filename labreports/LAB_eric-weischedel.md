@@ -102,7 +102,7 @@ ce1fcea circleci default config
 44ce6ae Initial commit
 ```
 * A screenshot of the _Jobs_ list in CircleCI
-![Jobs](images/jobs.jpg)
+![Jobs](images/jobs.JPG)
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
