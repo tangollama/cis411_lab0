@@ -1,11 +1,11 @@
 # Lab Report Template for CIS411_Lab0
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
-Name: YOUR NAME<br/>
-GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
+Name: Nik Mourelatos<br/>
+GitHub: [YOUR_HANDLE](https://github.com/NikMourelatos)<br/>
 
 # Step 1: Fork this repository
-- The URL of my forked repository
+- https://github.com/NikMourelatos/cis411_lab0.git
 - The accompanying diagram of what my fork precisely and conceptually represents
 
 # Step 2: Clone your forked repository from the command line
@@ -14,9 +14,9 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "91a06f4f-a923-4368-98a6-39e1a4e20ace",
+      "name": "Nikolas Michael Mourelatos",
+      "email": "nm1287@messiah.edu"
     }
   }
 }
