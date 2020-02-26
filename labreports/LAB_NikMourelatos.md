@@ -59,13 +59,14 @@ ce1fcea circleci default config
 
 # Step 4: Setup a Continuous Integration configuration
 - The config.yml file is allowing our repo to have continuous integration, this is being done by the config file whic deploys your repo with the selected configurations that are needed in order to run/ test your project.
-- * orbs are packages that you want in your build 
+- 
+  * orbs are packages that you want in your build 
   * jobs are what run your build process, inside our job we have the build which is used to run when we push our code.
   * inside our build we define the enviorment to run our project, which in this case is node/default
   * Also present inside our build processs we have the steps which would be the command line commands that we use in order to run/ test our program. In this case we have git check out which creates a branch to the working tree and then npm install and npm start which are used to test if ourproject is working correctly.
   * lastly, we have the workflow, this is used to pipeline the continuous integration of the project directing how the project is ran and tested. Present in ours we have build and test and jobs which causes those jobs to run.
 - When a CI build is succesful it shows that the code is able to compile and run currectly.
-- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+- the configuration would need to make sure that all the code collectively is running how it is intended and then deploy everything to the correct production server.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
