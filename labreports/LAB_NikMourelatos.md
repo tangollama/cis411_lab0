@@ -70,6 +70,7 @@ ce1fcea circleci default config
   * Also present inside our build processs we have the steps which would be the command line commands that we use in order to run/ test our program. In this case we have git check out which creates a branch to the working tree and then npm install and npm start which are used to test if ourproject is working correctly.
 - Workflows
   * lastly, we have the workflow, this is used to pipeline the continuous integration of the project directing how the project is ran and tested. Present in ours we have build-and-test and jobs which causes those jobs to run in that order.
+  ### Visualization of process
    ![](images/CircleCIDemonstration.jpg)
 - When a CI build is succesful it shows that the code that is pushed is able to compile and run currectly.
 - The configuration would need to make sure that all the code collectively is running how it is intended and then deploy everything to the correct production server.
