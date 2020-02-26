@@ -2,7 +2,7 @@
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
 Name: Nik Mourelatos<br/>
-GitHub: [YOUR_HANDLE](https://github.com/NikMourelatos)<br/>
+GitHub: [NikMourelatos](https://github.com/NikMourelatos)<br/>
 GitHub: [Starred repo](https://github.com/vmt/udis86)<br/>
 
 # Step 1: Fork this repository
