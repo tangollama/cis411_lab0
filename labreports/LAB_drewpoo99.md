@@ -7,7 +7,7 @@ GitHub: [drewpoo99](https://github.com/drewpoo99)<br/>
 # Step 1: Fork this repository
 - https://github.com/drewpoo99/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
-![what is a fork?](https://github.com/drewpoo99/cis411_lab0/blob/labreport/assets/What%20is%20a%20fork_.jpg)
+![What is a fork?](https://github.com/drewpoo99/cis411_lab0/blob/labreport/assets/What%20is%20a%20fork_.jpg)
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -56,6 +56,7 @@ ce1fcea circleci default config
 44ce6ae Initial commit
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
+![What is a feature branch?](https://github.com/drewpoo99/cis411_lab0/blob/labreport/assets/feature_branch.jpg)
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
