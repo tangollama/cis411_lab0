@@ -109,6 +109,7 @@ fe1937b more in the lab instructions
 3e807fb first section
 ```
 * A screenshot of the _Jobs_ list in CircleCI
+![Jobs in CCI](https://github.com/drewpoo99/cis411_lab0/blob/master/assets/dashboard.png)
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
