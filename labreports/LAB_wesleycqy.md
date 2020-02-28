@@ -7,7 +7,7 @@ GitHub: [Wesley Chong](https://github.com/wesleycqy)<br/>
 # Step 1: Fork this repository
 - https://github.com/wesleycqy/cis411_lab0.git
 - ![RepositoryRelationships](../assets/RepositoryRelationships.png "RepositoryRelationships")
-- When I forked @tangollama's repository, I essentially "copied" his entire code onto my device to use. From there, I am free to edit and use it. This is different compared to a source control branch. That is where a code simply branches out rather than copying all of the code down. This may be done to merge add new features among other things and eventually merge back into the original codebase whereelse forking does not. 
+- When I forked @tangollama's repository, I essentially "copied" his entire code onto my machine to use. From there, I am free to edit and use it. This is different compared to a source control branch. That is where a code simply branches out rather than copying all of the code down. This may be done to merge add new features among other things and eventually merge back into the original codebase whereelse forking does not. 
 
 
 # Step 2: Clone your forked repository from the command line
@@ -65,8 +65,10 @@ ce1fcea circleci default config
 - I would make sure the code is always ready to be deployed. Never halfway done to prevent it accidentally deployed and causing issues. 
 
 # Step 5: Merging the feature branch
-* 5e603b4 (HEAD -> master, labreport) HI this is commit 2yoyoyo
-fdf76b3 (origin/labreport) abcdefg @tangollama
+* b8c210d (HEAD -> master) Commit 3 Wesley Chong
+ff1a0e6 commit 3(??) idk man
+5e603b4 (origin/labreport, labreport) HI this is commit 2yoyoyo
+fdf76b3 abcdefg @tangollama
 dabceca (origin/master, origin/HEAD) Merge pull request #24 from tangollama/circleci
 a4096db Create README.md
 2f01bf4 Update LAB_INSTRUCTIONS.md
