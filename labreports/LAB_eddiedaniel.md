@@ -42,9 +42,9 @@ e429c1a lab instructions
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
-It allows one to make changes on existing file without complelety changing the other ones in order to test each unit individually,
+It allows one to make changes on existing file complelety changing the other ones in order to test each unit individually,
 - What do the various sections on the config file do?
- Things such as run restore and cache involve testing the code fiel to see if it works and having backups in case they don't which allows it to fall back. The welcome and run categories allow things to be setup in specific places where comments are also added for documentnation of what is involved in each step
+ Things such as run cache involve testing the code file to see if it works and has backups in case they don't which allows it to fall back. The jobs and steps parts allow things to be setup in specific places for what is involved in each step
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
 That the build istself functions well and setup in a way that allows for the code in all aspects to work.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
@@ -52,6 +52,11 @@ Better categorization for elements of the project to make sure everything will w
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
+warning: LF will be replaced by CRLF in labreports/LAB_eddiedaniel.md.
+The file will have its original line endings in your working directory
+[labreport a205dee] your commit message
+ 2 files changed, 26 insertions(+), 4 deletions(-)
+
 * A screenshot of the _Jobs_ list in CircleCI
 
 # Step 6: Submitting a Pull Request
