@@ -2,11 +2,14 @@
 Course: Messiah College CIS 411, Spring 2020<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
 Name: Joston Chan<br/>
-GitHub: JostonChan(https://github.com/JostonChan)<br/>
+GitHub: [JostonChan](https://github.com/JostonChan)<br/>
 
 # Step 1: Fork this repository
-- https://github.com/JostonChan/cis411_lab0.git
+- [Joston's Forked Repository](https://github.com/JostonChan/cis411_lab0.git)
 - The accompanying diagram of what my fork precisely and conceptually represents
+![Joston's Forked Repository Diagram](https://docs.google.com/drawings/d/1EPtMNJIRFA1q8Kir0trNi2eRa7fsQTu32YV4uVQezkY/edit?usp=sharing)
+Forked repository branch is not the same thing as a source control branch but rather it creates a child repository branch 
+for the user so that the user can edit the files that is only within the child repository branch, not affecting the source control branch.Once the user is satisfied with the changes that he has made, he can submit the changes to the source control branch using the "Pull Request".  
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -54,6 +57,7 @@ ce1fcea circleci default config
 968099e remove test db
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
+![Joston's Feature Branch Diagram](https://docs.google.com/drawings/d/1oe3tAaHbkEu6ZT7094bgl4d9MzyPZqgUxhuby-olex0/edit?usp=sharing)
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
