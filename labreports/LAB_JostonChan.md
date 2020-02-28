@@ -7,7 +7,7 @@ GitHub: [JostonChan](https://github.com/JostonChan)<br/>
 # Step 1: Fork this repository
 - [Joston's Forked Repository](https://github.com/JostonChan/cis411_lab0.git)
 - The accompanying diagram of what my fork precisely and conceptually represents
-  ![Joston's Forked Repository](Forked_Repository.png)
+  ![Joston's Forked Repository](../images/Forked_Repository.png)
   Forked repository branch is not the same thing as a source control branch but rather it creates a child repository branch 
   for the user so that the user can edit the files that is only within the child repository branch, not affecting the source control branch.Once the user is satisfied with the changes that he has made, he can submit the changes to the source control branch using the "Pull Request".  
 
@@ -24,7 +24,7 @@ GitHub: [JostonChan](https://github.com/JostonChan)<br/>
   }
 }
 ```
- ![Joston's GraphiQL Diagram](JostonGraphiQL.png)
+ ![Joston's GraphiQL Diagram](../images/JostonGraphiQL.png)
 
 # Step 3: Creating a feature branch
 - The output of my git commit log
@@ -63,31 +63,45 @@ GitHub: [JostonChan](https://github.com/JostonChan)<br/>
   7362cd1 working
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
- ![Joston's Feature Branch](Feature_Branch.png)
+ ![Joston's Feature Branch](../images/Feature_Branch.png)
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
-  It creates a workflow and scan the yml file. It also records the commits that you have made to a Git branch. Not only that, the main feature of the yml file is to run tests in parallel.This requires specifying a parallelism level to define how many separate executors get spun up for the test job. 
+  It creates a workflow and scan the yml file. It also records the commits that you have made to a Git branch. Additionally, the config.yml file is how CircleCI can interact with code and create builds from it.Not only that, the main feature of the yml file is to run tests in parallel.This requires specifying a parallelism level to define how many separate executors get spun up for the test job. 
 
 - What do the various sections on the config file do?
-  - Specify the version of the circle.ci platform
-  - Specify service dependencies here if necessary
-  - CircleCI maintains a library of pre-built images
-  - Runs test according to the steps and parallelism key that you have entered  
+
+  - The `version` portion specifies the version of CircleCI platform.
+  - `Orbs` are shareable packages of configuration elements, including jobs, commands, and executors.
+  - `Commands`allow users to enter a sequence of steps to be executed in a job and also allow users to reuse the command in multiple jobs.
+  - `Executors` define the environment in which the steps of a job will be run.
+      - Example: `Docker`
+  - `Jobs` are a collection of `Steps` that CircleCI will execute.    
+    - The `resource_class` feature allows configuring CPU and RAM resources for each job
+    - `Steps` are a collection of executable commands which are run during a job.
+      - `Run` declaration is used to invoke command-line programs.
+      - The `save_cache` generates and stores a cache of a file or directory of files.
+      - If user have done `save_cache`, the user can use `restore_cache` that restores a previously saved cache based on a key.
+      - `yarn install`is basically installing Yarn.
+      - `yarn test` is Yarn testing the application that is ran by CircleCI
+    - `Workflows` define a list of jobs and their run order. 
 
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
-  It indicates that the task or the feature that the user has added to the program presents no errors. 
+  It indicates that the build that the user has added to the program presents no errors when CircleCI was executing all the jobs and steps within the build. 
 
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
-  - Add a job to the config.yml file
-  - configure the job to run the steps that I want
-  - Add environment variables and SSH keys
-  - To simplify deployment, we can use Orbs, 
+  Doing further testing and consult the members that are involve in the project to do further testing with more testing scenarios. There will also be a log error file that will help keep track of the errors that occur after the deployment. 
+  To create further testing, we do the following tests:
+  1. Add a job to the config.yml file
+  2. Entered the desired parallelism key
+  3. Configure the job to run the steps 
+  4. Add environment variables and SSH keys
+  5. To simplify deployment, we can use Orbs
 
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
-'''
+```
   ae9994d (HEAD -> master, labreport) Adding Step 4 CircleCI Answers
   ba38011 (origin/labreport) I redid step 3 because I want to understand it better. @tangollama
   0078d1e (origin/master, origin/HEAD) Update LAB_JostonChan.md
@@ -152,9 +166,9 @@ GitHub: [JostonChan](https://github.com/JostonChan)<br/>
   968099e remove test db
   7362cd1 working
   44ce6ae Initial commit
-'''
+```
 * A screenshot of the _Jobs_ list/Pipeline in CircleCI
- ![Joston's CircleCI Screenshot](JostonCircleCI.png)
+ ![Joston's CircleCI Screenshot](../images/JostonCircleCI.png)
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
