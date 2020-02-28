@@ -88,37 +88,71 @@ The diagram is stored in the images folder.
 # Step 5: Merging the feature branch
 * The output of my git commit log
 '''
-e43f564 (HEAD -> master, origin/master, origin/HEAD, labreport) your commit message
-a3b15ca (origin/labreport) your commit and reference @tangollama in the message
-330597a your commit and reference @tangollama in the message
-dabceca (upstream/master) Merge pull request #24 from tangollama/circleci
-a4096db Create README.md
-2f01bf4 Update LAB_INSTRUCTIONS.md
-347bd50 Update LAB_INSTRUCTIONS.md
-7aaa9f3 Update LAB_INSTRUCTIONS.md
-37393ae Bug fixed
-1949d2a Update LAB_INSTRUCTIONS.md
-d36ad90 Update LAB.md
-59ef18a Update LAB_INSTRUCTIONS.md
-37be3c8 Update LAB_INSTRUCTIONS.md
-97da547 Update LAB.md
-0bd6244 (upstream/purelab, origin/purelab) updated Step 0 title
-4562cd8 added npm and node install repreq
-255051e adding template
-13a09b7 Adding the LAB.md and correcting some instructions.
-d2ddea5 Version 0.0.1 of the lab isntructions
-ab312fc more progress
-62fb0a5 more progress
-fe1937b more in the lab instructions
-3e807fb first section
-9ae6b83 remove LAB.md
-e429c1a lab instructions
-ce1fcea circleci default config
-80bbdbb circleci default config
-968099e remove test db
-7362cd1 working
+  ae9994d (HEAD -> master, labreport) Adding Step 4 CircleCI Answers
+  ba38011 (origin/labreport) I redid step 3 because I want to understand it better. @tangollama
+  0078d1e (origin/master, origin/HEAD) Update LAB_JostonChan.md
+  044199b Merging the feature branch
+  e43f564 your commit message
+  a3b15ca your commit and reference @tangollama in the message
+  330597a your commit and reference @tangollama in the message
+  dabceca (upstream/master) Merge pull request #24 from tangollama/circleci
+  a4096db Create README.md
+  2f01bf4 Update LAB_INSTRUCTIONS.md
+  347bd50 Update LAB_INSTRUCTIONS.md
+  7aaa9f3 Update LAB_INSTRUCTIONS.md
+  37393ae Bug fixed
+  1949d2a Update LAB_INSTRUCTIONS.md
+  d36ad90 Update LAB.md
+  59ef18a Update LAB_INSTRUCTIONS.md
+  37be3c8 Update LAB_INSTRUCTIONS.md
+  97da547 Update LAB.md
+  0bd6244 (upstream/purelab, origin/purelab) updated Step 0 title
+  4562cd8 added npm and node install repreq
+  255051e adding template
+  13a09b7 Adding the LAB.md and correcting some instructions.
+  d2ddea5 Version 0.0.1 of the lab isntructions
+  ab312fc more progress
+  62fb0a5 more progress
+  fe1937b more in the lab instructions
+  3e807fb first section
+  9ae6b83 remove LAB.md
+  e429c1a lab instructions
+  :...skipping...
+  ae9994d (HEAD -> master, labreport) Adding Step 4 CircleCI Answers
+  ba38011 (origin/labreport) I redid step 3 because I want to understand it better. @tangollama
+  0078d1e (origin/master, origin/HEAD) Update LAB_JostonChan.md
+  044199b Merging the feature branch
+  e43f564 your commit message
+  a3b15ca your commit and reference @tangollama in the message
+  330597a your commit and reference @tangollama in the message
+  dabceca (upstream/master) Merge pull request #24 from tangollama/circleci
+  a4096db Create README.md
+  2f01bf4 Update LAB_INSTRUCTIONS.md
+  347bd50 Update LAB_INSTRUCTIONS.md
+  7aaa9f3 Update LAB_INSTRUCTIONS.md
+  37393ae Bug fixed
+  1949d2a Update LAB_INSTRUCTIONS.md
+  d36ad90 Update LAB.md
+  59ef18a Update LAB_INSTRUCTIONS.md
+  37be3c8 Update LAB_INSTRUCTIONS.md
+  97da547 Update LAB.md
+  0bd6244 (upstream/purelab, origin/purelab) updated Step 0 title
+  4562cd8 added npm and node install repreq
+  255051e adding template
+  13a09b7 Adding the LAB.md and correcting some instructions.
+  d2ddea5 Version 0.0.1 of the lab isntructions
+  ab312fc more progress
+  62fb0a5 more progress
+  fe1937b more in the lab instructions
+  3e807fb first section
+  9ae6b83 remove LAB.md
+  e429c1a lab instructions
+  ce1fcea circleci default config
+  80bbdbb circleci default config
+  968099e remove test db
+  7362cd1 working
+  44ce6ae Initial commit
 '''
-
 * A screenshot of the _Jobs_ list/Pipeline in CircleCI
 
 
