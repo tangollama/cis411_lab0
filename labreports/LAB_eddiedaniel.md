@@ -1,12 +1,14 @@
 # Lab Report Template for CIS411_Lab0
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
-Name: YOUR NAME<br/>
-GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
+Name: Eddie Daniel<br/>
+GitHub: [eddiedaniel](https://github.com/eddiedaniel)<br/>
 
 # Step 1: Fork this repository
 - The URL of my forked repository
+C:\Users\eddie\Documents\GitHub\cis411_lab0\labreports
 - The accompanying diagram of what my fork precisely and conceptually represents
+
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -15,8 +17,8 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
   "data": {
     "mutateAccount": {
       "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "name": "Eddie Daniel",
+      "email": "Eddiedan55@gmail.com"
     }
   }
 }
@@ -40,9 +42,13 @@ e429c1a lab instructions
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
+It allows one to make changes on existing file without complelety changing the other ones in order to test each unit individually,
 - What do the various sections on the config file do?
+ Things such as run restore and cache involve testing the code fiel to see if it works and having backups in case they don't which allows it to fall back. The welcome and run categories allow things to be setup in specific places where comments are also added for documentnation of what is involved in each step
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+That the build istself functions well and setup in a way that allows for the code in all aspects to work.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+Better categorization for elements of the project to make sure everything will work.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
