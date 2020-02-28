@@ -65,11 +65,14 @@ ce1fcea circleci default config
 - I would make sure the code is always ready to be deployed. Never halfway done to prevent it accidentally deployed and causing issues. 
 
 # Step 5: Merging the feature branch
-* b8c210d (HEAD -> master) Commit 3 Wesley Chong
+* 304924f (HEAD -> master, origin/master, origin/HEAD) qwerty2001
+a02cc8f Update Course Date
+b7d423a Commit 4 Wesley C
+b8c210d Commit 3 Wesley Chong
 ff1a0e6 commit 3(??) idk man
 5e603b4 (origin/labreport, labreport) HI this is commit 2yoyoyo
 fdf76b3 abcdefg @tangollama
-dabceca (origin/master, origin/HEAD) Merge pull request #24 from tangollama/circleci
+dabceca Merge pull request #24 from tangollama/circleci
 a4096db Create README.md
 2f01bf4 Update LAB_INSTRUCTIONS.md
 347bd50 Update LAB_INSTRUCTIONS.md
@@ -96,7 +99,7 @@ ce1fcea circleci default config
 968099e remove test db
 7362cd1 working
 44ce6ae Initial commit
-* A screenshot of the _Jobs_ list in CircleCI
+* ![JobsScreenshot](../assets/JobsScreenshot.png "JobsScreenshot")
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
