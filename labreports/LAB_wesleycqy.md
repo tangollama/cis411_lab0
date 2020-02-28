@@ -59,7 +59,7 @@ ce1fcea circleci default config
 - ![MasterFeatureBranch](../assets/MasterFeatureBranch.png "MasterFeatureBranch")
 
 # Step 4: Setup a Continuous Integration configuration
-- Circle.ci allows a developer to edit the code of a program or a new feature while the original program still runs appropriately. 
+- Circle.ci allows a developer to edit the code of a program or new feature while the original program still runs appropriately. 
 - They allow me to copy a file onto my own site/device and make changes to it without changing the original file. It then makes sure that my edited code is compatible with the original one. 
 - It indicates that when I want to push my code up into the original repository, it should work as Circle Ci has already checked it out for me.
 - I would make sure the code is always ready to be deployed. Never halfway done to prevent it accidentally deployed and causing issues. 
