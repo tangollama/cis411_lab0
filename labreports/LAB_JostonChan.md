@@ -7,7 +7,7 @@ GitHub: [JostonChan](https://github.com/JostonChan)<br/>
 # Step 1: Fork this repository
 - [Joston's Forked Repository](https://github.com/JostonChan/cis411_lab0.git)
 - The accompanying diagram of what my fork precisely and conceptually represents
-  The diagram is stored in the images folder.
+  ![Joston's Forked Repository](Forked_Repository.png)
   Forked repository branch is not the same thing as a source control branch but rather it creates a child repository branch 
   for the user so that the user can edit the files that is only within the child repository branch, not affecting the source control branch.Once the user is satisfied with the changes that he has made, he can submit the changes to the source control branch using the "Pull Request".  
 
@@ -24,7 +24,7 @@ GitHub: [JostonChan](https://github.com/JostonChan)<br/>
   }
 }
 ```
-A diagram is stored in the images folder.
+ ![Joston's GraphiQL Diagram](JostonGraphiQL.png)
 
 # Step 3: Creating a feature branch
 - The output of my git commit log
@@ -63,7 +63,7 @@ A diagram is stored in the images folder.
   7362cd1 working
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
-The diagram is stored in the images folder.
+ ![Joston's Feature Branch](Feature_Branch.png)
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
@@ -154,7 +154,7 @@ The diagram is stored in the images folder.
   44ce6ae Initial commit
 '''
 * A screenshot of the _Jobs_ list/Pipeline in CircleCI
-
+ ![Joston's CircleCI Screenshot](JostonCircleCI.png)
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
