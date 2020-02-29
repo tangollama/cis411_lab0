@@ -9,6 +9,7 @@ GitHub: [Joshua Keong](https://github.com/jk1595)<br/>
 
 - https://github.com/jk1595/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
+- ![Forked_Diagram](../assets/Forked_Diagram.png "Forked_Diagram")
 
 # Step 2: Clone your forked repository from the command line
 
@@ -75,13 +76,26 @@ ce1fcea circleci default config
 ```
 
 - The accompanying diagram of what my feature branch precisely and conceptually represents
+  ![Branch_Diagram](../assets/Branch_Diagram.png "Branch_Diagram")
 
 # Step 4: Setup a Continuous Integration configuration
 
 - What is the .circleci/config.yml doing?
+  The config.yml file contains instructions and configurations that circleci goes through to make sure the code is able to deploy successfully.
+
 - What do the various sections on the config file do?
+  The 'version' section tells which version of the CircleCi platform you are using.
+  The 'jobs' section contains arbitrary named children.
+  The 'steps' section contains run directives and is being excuted in the sequence it is arranged in.
+  The 'name' section contains the name of the commands being run which makes it easier to detect where the error is.
+  The 'command' section contains a list of shell commands that shows the work you want done.
+
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+  It means that circleci has succesfully followed all required instructions and integrations listed in the config file and has been deployed to the server.
+
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+  Configuring manual processes such as building, deploying and testing to be automated.
+  Ensure that deployable systems can be upgraded or configured without any downtime.
 
 # Step 5: Merging the feature branch
 
