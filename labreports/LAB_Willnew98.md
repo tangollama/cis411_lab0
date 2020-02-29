@@ -5,7 +5,7 @@ GitHub: [Willnew98](https://github.com/Willnew98)<br/>
 
 # Step 1: Fork this repository
 - https://github.com/Willnew98/cis411_lab0
-- The accompanying diagram of what my fork precisely and conceptually represents
+- https://github.com/Willnew98/cis411_lab0/blob/labreport/assets/GitHub%20Diagram.png
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
