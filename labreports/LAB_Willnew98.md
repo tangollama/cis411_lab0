@@ -48,11 +48,26 @@ fe1937b more in the lab instructions
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
 
+  https://github.com/Willnew98/cis411_lab0/blob/labreport/assets/Feature%20Branch%20Diagram.png
+
+
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
+    
+    - It's building and testing my committed code with the master branch automatically, so I don't keep building the feature branch that might not work with the master.
 - What do the various sections on the config file do?
+
+    - The orbs seem to be packages that you can add to your script that come with certain tests build in so you don't have to reinvent anything. For instance, the reason I can use npm install and npm test is because I have the node orb incorperated. 
+
+    - The jobs tell you what job is being done. The first job is a build-and-test, which is precisely what it is doing. Inside the job it also will tell you the steps that need to be taken to complete this job, and it will run those steps automatically for you.
+
+    - The workflow is just the order in which the jobs are ran. Since there's only one job, though, the order doesn't really matter.
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+
+    - When a build is successful that means that it passed all of the tests built to inspect the code, and it is now ready to be integrated into the master branch.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+
+    - If I were to deploy it to something like Heroku, I think I could just add an orb for Heroku, and then use the workflow to deploy to Heroku after running some tests.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
