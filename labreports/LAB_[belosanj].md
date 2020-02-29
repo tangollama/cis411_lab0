@@ -6,7 +6,7 @@ GitHub: [belosanj](https://github.com/belosanj)<br/>
 
 # Step 1: Fork this repository
 - [The URL of my forked repository](https://github.com/belosanj/cis411_lab0.git)
-- The accompanying diagram of what my fork precisely and conceptually represents
+- ![Diagram representing forked repository](../assets/Forked_repository.png)
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -55,17 +55,49 @@ ce1fcea circleci default config
 44ce6ae Initial commit
 
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents
+- ![Diagram representing relationship between your master and feature branch](../assets/Master_feature&#32;branch.png)
 
 # Step 4: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?
+- .circleci/config.yml is where your code is configured. It is the only file where the entire delivery process from build to deploy is setup. 
 - What do the various sections on the config file do?
-- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+- When CI is sucessful that means that the all of the builds jobs passed sucessfully.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
-* A screenshot of the _Jobs_ list in CircleCI
+```
+c6c649e (HEAD -> master, labreport) Belosan's commit message
+55584c2 (origin/labreport) Belosan's commit @tangollama
+dabceca (origin/master, origin/HEAD) Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 (origin/purelab) updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
+ab312fc more progress
+62fb0a5 more progress
+fe1937b more in the lab instructions
+3e807fb first section
+9ae6b83 remove LAB.md
+e429c1a lab instructions
+ce1fcea circleci default config
+80bbdbb circleci default config
+968099e remove test db
+7362cd1 working
+44ce6ae Initial commit
+
+```
+* ![Screenshot of Jobs in CircleCi]
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
