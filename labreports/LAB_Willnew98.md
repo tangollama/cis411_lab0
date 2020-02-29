@@ -72,14 +72,18 @@ fe1937b more in the lab instructions
 # Step 5: Merging the feature branch
 * The output of my git commit log
 ```
-0c5aeb4 (HEAD -> labreport, origin/labreport) updated labreport @tangollama
+0cad8aa (HEAD -> master, origin/master, origin/labreport, origin/HEAD, labreport) Answered CircleCI questions @tangollama
+57a4434 added feature branch diagram to assets folder @tangollama
+25911b1 added jobs screenshot to assets folder @tangollama
+9253245 added jobs screenshot to assets folder @tangollama
+0c5aeb4 updated labreport @tangollama
 332d09f adding diagram to assets folder @tangollama
 928d0f0 updated circleci @tangollama
 22b7652 Copy the content for the setup instructions into config.yml @tangollama
 3d56731 Added my git commit log @tangollama
 ee20f12 hopefully this works @tangollama
 6c23264 restarting the lab @tangollama
-dabceca (origin/master, origin/HEAD, master) Merge pull request #24 from tangollama/circleci
+dabceca Merge pull request #24 from tangollama/circleci
 a4096db Create README.md
 2f01bf4 Update LAB_INSTRUCTIONS.md
 347bd50 Update LAB_INSTRUCTIONS.md
@@ -106,8 +110,6 @@ ce1fcea circleci default config
 968099e remove test db
 7362cd1 working
 44ce6ae Initial commit
-
-
 ```
 * https://github.com/Willnew98/cis411_lab0/blob/labreport/assets/Jobs%20Screenshot.png
 
