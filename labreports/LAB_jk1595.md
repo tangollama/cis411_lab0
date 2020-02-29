@@ -100,7 +100,31 @@ ce1fcea circleci default config
 # Step 5: Merging the feature branch
 
 - The output of my git commit log
+  d4b08cf (HEAD -> labreports, origin/master, origin/labreports, origin/HEAD, master) Answered questions in step 4 and added diagramsfor step 1 and 2
+  e66fff4 Added name and github handle, step 1, step 2 and step 3
+  23e5619 done! @tangollama
+  dabceca (upstream/master) Merge pull request #24 from tangollama/circleci
+  a4096db Create README.md
+  2f01bf4 Update LAB_INSTRUCTIONS.md
+  347bd50 Update LAB_INSTRUCTIONS.md
+  7aaa9f3 Update LAB_INSTRUCTIONS.md
+  37393ae Bug fixed
+  1949d2a Update LAB_INSTRUCTIONS.md
+  d36ad90 Update LAB.md
+  59ef18a Update LAB_INSTRUCTIONS.md
+  37be3c8 Update LAB_INSTRUCTIONS.md
+  97da547 Update LAB.md
+  0bd6244 (upstream/purelab, origin/purelab) updated Step 0 title
+  4562cd8 added npm and node install repreq
+  255051e adding template
+  13a09b7 Adding the LAB.md and correcting some instructions.
+  d2ddea5 Version 0.0.1 of the lab isntructions
+  ab312fc more progress
+  62fb0a5 more progress
+  fe1937b more in the lab instructions
+
 - A screenshot of the _Jobs_ list in CircleCI
+  ![scrnshot_joblist](../assets/scrnshot_joblist.png "scrnshot_joblist")
 
 # Step 6: Submitting a Pull Request
 
