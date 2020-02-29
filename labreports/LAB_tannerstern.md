@@ -8,7 +8,7 @@ Following: [tangollama](https://github.com/tangollama)<br/>
 # Step 1: Fork this repository
 - The URL of my forked repository: https://github.com/tannerstern/cis411_lab0
 ![Fork Diagram](../assets/step1_diagram.png "Fork Diagram")
-- My diagram of what my fork precisely and conceptually represents
+- The accompanying diagram of what my fork precisely and conceptually represents
   - Forking a repository makes a distinct duplicate repository from the original repository
   - My repository and another student's repository and distinct
   - The two repositories (tangollama's and my own) will not be merged
@@ -59,13 +59,28 @@ ce1fcea circleci default config
 7362cd1 working
 44ce6ae Initial commit
 ```
+![Branch Diagram](../assets/step3_diagram.png "Branch Diagram")
 - The accompanying diagram of what my feature branch precisely and conceptually represents
+  - The master branch remains unchanged as I make changes to my own branch
+  - Any changes I make in my branch will eventually need to be merged into the master
 
 # Step 4: Setup a Continuous Integration configuration
+![CI Diagram](../assets/step4_diagram.png "CI Diagram")
 - What is the .circleci/config.yml doing?
+  - The `.circleci/config.yml` file orchestrates the integration and delivery process. The stanzas contained within the file define how the build and deploy process should unfold. CircleCI looks for the `config.yml` file in the `.circleci` directory at the top of the project branch. Every time code is changed in the remote repository, CircleCI executes the commands within the configuration file to accomplish whatever CI process is needed, be it executing automated tests in a virtual environment or deploying to an Amazon EC2 instance.
 - What do the various sections on the config file do?
+  - `version` defines what version of CircleCI the file is being used
+  - `orbs` are pre-built configurations that can be imported into the configuration
+  - `jobs` are the named jobs to be executed by CircleCI to accomplish the CI process
+    - Jobs include environments (`executors` or containers) to specify where to run the job
+    - `steps` are the actions and commands for CircleCI to execute. They are what CircleCI is "doing."
+  - `workflows` define the order in which the jobs should be executed
+    - If a job `requires` another job to be completed before it is run, that behavior is specified here
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+  - A successful CI build means that the code or changes that have been committed to the repository have been successfully integrated. Philosophically, this means that changes to the code did not "formally" break anything and have integrated with existing code. Practically, all tests that were run against the updated codebase were successful, and the build did not experience any errors. This does not mean that code is entirely free of errors or works exactly as intended. Rather, per the tests and build instructions, everything worked correctly.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+  - After testing and integration, the build should be approved. A means to halt the operation until test results have been approved would be useful, or at least a notification that informs the project manager that CI was successful.
+  - The `config.yml` file would need to have a way to deploy the project when it is run. The CircleCI website mentions deploying to several different environments, including AWS CodeDeploy, Microsoft Azure, and Heroku. All of these environments (like the virtual enironments for testing) would require stanzas to establish the connection.
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
