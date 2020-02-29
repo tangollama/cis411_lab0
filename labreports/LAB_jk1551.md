@@ -5,8 +5,8 @@ Name: Joe King<br/>
 GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 
 # Step 1: Fork this repository
-- The URL of my forked repository
-- The accompanying diagram of what my fork precisely and conceptually represents
+- https://github.com/jk1551/cis411_lab0.git
+- https://docs.google.com/drawings/d/1h0SjvO5dkoTpowOZxbOuXqBtjmsRfm0ZSZTcb8XIn50/edit?usp=sharing
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -25,27 +25,43 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 # Step 3: Creating a feature branch
 - The output of my git commit log
 ```
-d2ddea5 (HEAD -> master, origin/master, origin/HEAD) Version 0.0.1 of the lab instructions
-ab312fc more progress
-62fb0a5 more progress
-fe1937b more in the lab instructions
-3e807fb first section
-9ae6b83 remove LAB.md
-e429c1a lab instructions
-968099e remove test db
-7362cd1 working
-44ce6ae Initial commit
+ git log
+
+commit fb1370210619dfa264ca72a377c94cb155080320 (labreport2)
+Author: jk1551 <joe.k659@gmail.com>
+Date:   Fri Feb 28 11:41:05 2020 -0500
+
+    jk1551 commit @tangollama.
+
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents
+- https://docs.google.com/drawings/d/1zpPHtpeXZ8YptKF3-L48NVeWWW3QGDn_x8DO32pgrSY/edit?usp=sharing
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
+    .circleci/config.yml allows you to build and test the application at the same time. 
+  
 - What do the various sections on the config file do?
+    "Orbs" is a configuration
+    "welcome" lets you declare a dependency
+    "workflow" lets you orchestrate a set of jobs
+    "welcome" is also the name of the workflow
+    the "job" is run/welcome
+
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+    When the CI build is successful, it allows you to keep a code repository, automate the build, keep the build fast, and test in a clone production enviorment. 
+    
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+    I would make the updates to the master branch continuous so users would recieve updates instantaneously 
 
 # Step 5: Merging the feature branch
 *  git log
+
+commit ad8c0b5916b59129bb03faa53c0eedbe6658458b (HEAD -> labreport, origin/labreport)
+Author: jk1551 <joe.k659@gmail.com>
+Date:   Sat Feb 29 17:20:12 2020 -0500
+
+    2nd commit
+    
 commit fb1370210619dfa264ca72a377c94cb155080320 (HEAD -> labreport, origin/labreport)
 Author: jk1551 <joe.k659@gmail.com>
 Date:   Fri Feb 28 11:41:05 2020 -0500
