@@ -25,8 +25,10 @@ GitHub: [belosanj](https://github.com/belosanj)<br/>
 # Step 3: Creating a feature branch
 - The output of my git commit log
 ```
-55584c2 (HEAD -> labreport, origin/labreport) Belosan's commit @tangollama
-dabceca (origin/master, origin/HEAD, master) Merge pull request #24 from tangollama/circleci
+303591f (HEAD -> master) merging feature branch
+c6c649e (origin/master, origin/HEAD, labreport) Belosan's commit message
+55584c2 (origin/labreport) Belosan's commit @tangollama
+dabceca Merge pull request #24 from tangollama/circleci
 a4096db Create README.md
 2f01bf4 Update LAB_INSTRUCTIONS.md
 347bd50 Update LAB_INSTRUCTIONS.md
@@ -59,9 +61,9 @@ ce1fcea circleci default config
 
 # Step 4: Setup a Continuous Integration configuration
 - .circleci/config.yml is where your code is configured. It is the only file where the entire delivery process from build to deploy is setup. 
-- What do the various sections on the config file do?
+- The various sections on the config file tell us what is happening. For instance, "Version" tells us what version of circleCi we are working on. 
 - When CI is sucessful that means that the all of the builds jobs passed sucessfully.
-- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+- I would go to my config.yml file in visual studio code to edit and add code. 
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
@@ -97,7 +99,7 @@ ce1fcea circleci default config
 44ce6ae Initial commit
 
 ```
-* ![Screenshot of Jobs in CircleCi]
+* ![Screenshot of Jobs in CircleCi](../assets/circleCi_jobs_workflow.png)
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
