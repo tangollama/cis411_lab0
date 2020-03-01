@@ -1,11 +1,11 @@
 # Lab Report Template for CIS411_Lab0
 Course: Messiah College CIS 411, Fall 2018<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
-Name: YOUR NAME<br/>
-GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
+Name: Bryce Doane<br/>
+GitHub: [BryceDoane](https://github.com/BryceDoane)<br/>
 
 # Step 1: Fork this repository
-- The URL of my forked repository
+- https://github.com/BryceDoane/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
 
 # Step 2: Clone your forked repository from the command line
@@ -14,9 +14,9 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "8eff17bc-f9d6-4620-90aa-af4699882695",
+      "name": "Bryce Doane",
+      "email": "bd1275@messiah.edu"
     }
   }
 }
@@ -25,16 +25,28 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 # Step 3: Creating a feature branch
 - The output of my git commit log
 ```
-d2ddea5 (HEAD -> master, origin/master, origin/HEAD) Version 0.0.1 of the lab instructions
+08eef0d (HEAD -> labreport, origin/labreport) your commit and reference @tangollama in the message
+dabceca (origin/master, origin/HEAD, master) Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 (origin/purelab) updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
 ab312fc more progress
 62fb0a5 more progress
 fe1937b more in the lab instructions
 3e807fb first section
-9ae6b83 remove LAB.md
-e429c1a lab instructions
-968099e remove test db
-7362cd1 working
-44ce6ae Initial commit
+
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
 
