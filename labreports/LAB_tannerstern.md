@@ -6,15 +6,16 @@ GitHub: [tannerstern](https://github.com/tannerstern)<br/>
 Following: [tangollama](https://github.com/tangollama)<br/>
 
 # Step 1: Fork this repository
-- The URL of my forked repository: https://github.com/tannerstern/cis411_lab0
+The URL of my forked repository: https://github.com/tannerstern/cis411_lab0
 ![Fork Diagram](../assets/step1_diagram.png "Fork Diagram")
-- The accompanying diagram of what my fork precisely and conceptually represents
-  - Forking a repository makes a distinct duplicate repository from the original repository
-  - My repository and another student's repository and distinct
-  - The two repositories (tangollama's and my own) will not be merged
+<br/>
+The accompanying diagram of what my fork precisely and conceptually represents
+- Forking a repository makes a distinct duplicate repository from the original repository
+- My repository and another student's repository and distinct
+- The two repositories (tangollama's and my own) will not be merged
 
 # Step 2: Clone your forked repository from the command line
-- My GraphQL response from adding myself as an account on the test project
+My GraphQL response from adding myself as an account on the test project
 ```
 {
   "data": {
@@ -28,7 +29,7 @@ Following: [tangollama](https://github.com/tangollama)<br/>
 ```
 
 # Step 3: Creating a feature branch
-- The output of my git commit log
+The output of my git commit log
 ```
 872f6c1 (HEAD -> labreport, origin/labreport) First update to lab report per @tangollama request
 dabceca (origin/master, origin/HEAD, master) Merge pull request #24 from tangollama/circleci
@@ -59,13 +60,13 @@ ce1fcea circleci default config
 7362cd1 working
 44ce6ae Initial commit
 ```
-![Branch Diagram](../assets/step3_diagram.png "Branch Diagram")
-- The accompanying diagram of what my feature branch precisely and conceptually represents
-  - The master branch remains unchanged as I make changes to my own branch
-  - Any changes I make in my branch will eventually need to be merged into the master
+![Branch Diagram](../assets/step3_diagram.png "Branch Diagram")<br/>
+The accompanying diagram of what my feature branch precisely and conceptually represents
+- The master branch remains unchanged as I make changes to my own branch
+- Any changes I make in my branch will eventually need to be merged into the master
 
 # Step 4: Setup a Continuous Integration configuration
-![CI Diagram](../assets/step4_diagram.png "CI Diagram")
+![CI Diagram](../assets/step4_diagram.png "CI Diagram")<br/>
 - What is the .circleci/config.yml doing?
   - The `.circleci/config.yml` file orchestrates the integration and delivery process. The stanzas contained within the file define how the build and deploy process should unfold. CircleCI looks for the `config.yml` file in the `.circleci` directory at the top of the project branch. Every time code is changed in the remote repository, CircleCI executes the commands within the configuration file to accomplish whatever CI process is needed, be it executing automated tests in a virtual environment or deploying to an Amazon EC2 instance.
 - What do the various sections on the config file do?
@@ -83,8 +84,34 @@ ce1fcea circleci default config
   - The `config.yml` file would need to have a way to deploy the project when it is run. The CircleCI website mentions deploying to several different environments, including AWS CodeDeploy, Microsoft Azure, and Heroku. All of these environments (like the virtual enironments for testing) would require stanzas to establish the connection.
 
 # Step 5: Merging the feature branch
-* The output of my git commit log
-* A screenshot of the _Jobs_ list in CircleCI
+The output of my git commit log
+```
+28e8980 (HEAD -> master, origin/labreport, labreport) Added remaining diagrams
+e4e11cd Added the first diagram
+872f6c1 First update to lab report per @tangollama request
+dabceca (origin/master, origin/HEAD) Merge pull request #24 from tangollama/circleci
+a4096db Create README.md
+2f01bf4 Update LAB_INSTRUCTIONS.md
+347bd50 Update LAB_INSTRUCTIONS.md
+7aaa9f3 Update LAB_INSTRUCTIONS.md
+37393ae Bug fixed
+1949d2a Update LAB_INSTRUCTIONS.md
+d36ad90 Update LAB.md
+59ef18a Update LAB_INSTRUCTIONS.md
+37be3c8 Update LAB_INSTRUCTIONS.md
+97da547 Update LAB.md
+0bd6244 (origin/purelab) updated Step 0 title
+4562cd8 added npm and node install repreq
+255051e adding template
+13a09b7 Adding the LAB.md and correcting some instructions.
+d2ddea5 Version 0.0.1 of the lab isntructions
+ab312fc more progress
+62fb0a5 more progress
+fe1937b more in the lab instructions
+
+```
+![Jobs List](../assets/step5_screenshot.png "Jobs List")<br/>
+A screenshot of the _Jobs_ list in CircleCI
 
 # Step 6: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
