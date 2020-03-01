@@ -6,7 +6,7 @@ GitHub: [YOUR_HANDLE](https://github.com/YOUR_HANDLE)<br/>
 
 # Step 1: Fork this repository
 - https://github.com/GageSapp-Rahme/cis411_lab0
-- The accompanying diagram of what my fork precisely and conceptually represents
+- https://github.com/GageSapp-Rahme/cis411_lab0/blob/labreport/assets/fork%20(1).png
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -53,11 +53,11 @@ ce1fcea circleci default config
 7362cd1 working
 44ce6ae Initial commit
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents
+- https://github.com/GageSapp-Rahme/cis411_lab0/blob/labreport/assets/feature.png
 
 # Step 4: Setup a Continuous Integration configuration
 - Running node, creating build and test job, doing checkout, installing and testing npm, then it creates a work flow that runs the build and test.
-- What do the various sections on the config file do?
+- Run node. Create the build/test job. Checkout. Run and test npm. Runs the file.
 - Runs the tests and means the code is good to go
 - Add deployemnt strategy, whether AWS or otherwise into the config.
 
