@@ -1,12 +1,14 @@
 # Lab Report Template for CIS411_Lab0
-Course: Messiah College CIS 411, Fall 2018<br/>
+Course: Messiah College CIS 411, Spring 2020<br/>
 Instructors: [Joel Worrall](https://github.com/tangollama) & [Trevor Bunch](https://github.com/trevordbunch)<br/>
 Name: Luke Meads<br/>
 GitHub: [lukemeads3](https://github.com/lukemeads3)<br/>
 
 # Step 1: Fork this repository
 - The URL of my forked repository
+https://github.com/lukemeads3/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
+
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -14,9 +16,9 @@ GitHub: [lukemeads3](https://github.com/lukemeads3)<br/>
 {
   "data": {
     "mutateAccount": {
-      "id": "a10db030-ded8-4397-a78f-30b79d3497ab",
-      "name": "MY NAME",
-      "email": "MY EMAIL"
+      "id": "88b5097d-69d0-465f-9f7c-24d42806d8d8",
+      "name": "Luke Meads",
+      "email": "lm1374@messiah.edu"
     }
   }
 }
@@ -59,6 +61,7 @@ ce1fcea circleci default config
 
 # Step 4: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?
+
 - What do the various sections on the config file do?
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
