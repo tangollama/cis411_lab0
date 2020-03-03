@@ -46,7 +46,11 @@ e429c1a lab instructions
 # Step 4: Setup a Continuous Integration configuration
 ## What CircleCI is doing:
 ```
-INSERT DESCRIPTION
+CircleCI is a continuous integration tool that checks any updates to the code for errors before it allows a commit. 
+1. The config.yml file tells CircleCI how to process the code and what version of the program to use. 
+2. The first part of the code specifies what build version of CircleCI to use when testing the code. The second part tells where the files are located for CircleCI and the program to be tested. The last part tells CircleCI which type of test to run on the code. 
+3. When a CircleCI run is successful, it measn that the code will compile and publish without errors. It means the build is stable, but it does not mean that the code will always perform exactly how the programmer intends it to in terms of features. 
+4. I would add some code that would check if CircleCI was sucessful, and if it was, it would auto-commit and push changes to Github to prevent files from not being committed properly. 
 ```
 - What is the .circleci/config.yml doing?
 - What do the various sections on the config file do?
