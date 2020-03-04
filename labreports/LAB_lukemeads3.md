@@ -8,7 +8,7 @@ GitHub: [lukemeads3](https://github.com/lukemeads3)<br/>
 - The URL of my forked repository
 https://github.com/lukemeads3/cis411_lab0
 - The accompanying diagram of what my fork precisely and conceptually represents
-
+C:\Users\Lamea\Documents\GitHub\cis411_lab0\assets\Source Lab.png
 
 # Step 2: Clone your forked repository from the command line
 - My GraphQL response from adding myself as an account on the test project
@@ -67,7 +67,6 @@ The job section contains the collection of children. The steps section is the li
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
 When a CI build is successful, everyone in the process are able to push their code to the repo and be able to detect any bad builds and fix them quickly.
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
-
 
 # Step 5: Merging the feature branch
 * The output of my git commit log
