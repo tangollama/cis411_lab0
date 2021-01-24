@@ -73,7 +73,7 @@ mutation {
 5. Validate that your CircleCI build is running doing so successfully, **by grabbing a screenshot of the _Jobs_ list in CircleCI and including it in your report**.
 
 # Step 6: Submitting a Pull Request
-Once you've completed your report markdown, have ensured that your forked repository is successfully running in CircleCI, and have committed all your changes to your (primary) master branch, initiate a Pull Request in GitHub to submit your Lab Report.
+Once you've completed your report markdown, have ensured that your forked repository is successfully running in CircleCI, and have committed all your changes to your (primary) master branch, and `push` your updated master branch back to Github, and then initiate a Pull Request in GitHub to submit your Lab Report.
 1. Navigate to the root of your forked repository (ex. https://github.com/YOURHANDLE/cis411_lab0).
 2. Click the _New pull request_ button.
 3. Choose the base fork _tangollama/cis411_lab0_ is the target and that your fully updated _master_ branch is the source.
