@@ -9,11 +9,10 @@ ___
 
 # Step 1: Fork this repository
 - The URL of my forked repository: https://github.com/AnnikaKowalski/cis411_lab1_CI
-- The accompanying diagram of what my fork precisely and conceptually represents...
 
 # Step 2: Clone your forked repository from the command line  
 - The command to navigate to the directory when I open up the command line is... 
-- cd docments/GitHUb/cis411_lab1_CI 
+  - cd docments/GitHUb/cis411_lab1_CI 
 
 # Step 3: Run the application locally
 - My GraphQL response from adding myself as an account on the test project
@@ -57,18 +56,18 @@ d36ad90 Update LAB.md
 
 # Step 5: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?   
-- This file communicates with the CircleCI and tells it how to configure their process to work with the project that is being used. This file can also store network preferences which allot the connection to take place and for both programs to be to on the same page with settings and networking. The .yml file is a language that can easily be translated to other languages. 
+  - This file communicates with the CircleCI and tells it how to configure their process to work with the project that is being used. This file can also store network preferences which allot the connection to take place and for both programs to be to on the same page with settings and networking. The .yml file is a language that can easily be translated to other languages. 
 
 - What do the various sections on the config file do?  
-- There are orbs which are packages of comfiguration code. People are abe to share and create config files easier with this feature. 
-- Workflows use rules in order to keep jobs running properly. This feature allows everyone to be up to date on the process that is taking place. 
-- Lastly, job are a collection of doffernet processes that have the ability to run together as a unit. 
+  - There are orbs which are packages of comfiguration code. People are abe to share and create config files easier with this feature. 
+  - Workflows use rules in order to keep jobs running properly. This feature allows everyone to be up to date on the process that is taking place. 
+  - Lastly, job are a collection of doffernet processes that have the ability to run together as a unit. 
 
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
-- When a Ci build is sucessful it means that the code was passsed through the automated debugging process and is now compelte and free from errors. The code being tested will make sure it functions with the predefined tests that are set up. The debugging process makes sure that the code will run and that it will be sucessful. Even if the code functions correctly it will be sucessful even if the code doe now do what it was intended to do. 
+  - When a Ci build is sucessful it means that the code was passsed through the automated debugging process and is now compelte and free from errors. The code being tested will make sure it functions with the predefined tests that are set up. The debugging process makes sure that the code will run and that it will be sucessful. Even if the code functions correctly it will be sucessful even if the code doe now do what it was intended to do. 
 
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?  
-- For this to be unsed in a project I would want to make sure that each person working on the project knows how the code will function so that errors will be minimal. I also this a beta stream and stable stream would be able to catch bugs before it is open for the public to use. An automated system would also allow things to be updated easier and quicker. 
+  - For this to be unsed in a project I would want to make sure that each person working on the project knows how the code will function so that errors will be minimal. I also this a beta stream and stable stream would be able to catch bugs before it is open for the public to use. An automated system would also allow things to be updated easier and quicker. 
 
 # Step 6: Merging the feature branch
 * The output of my git commit log
@@ -98,9 +97,6 @@ d36ad90 Update LAB.md
 :
 
 ```
-
-* A screenshot of the _Jobs_ list in CircleCI
-
 ![CircleCI Success](../assets/circleci_success.png)
 
 # Step 7: Submitting a Pull Request
