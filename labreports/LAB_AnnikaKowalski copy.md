@@ -30,6 +30,7 @@ ___
 ```
 
 # Step 4: Creating a feature branch
+- The output of my git commit log
 ```
 d4f22eb (origin/purelab, purelab) Update repo branch names
 0e3ae4c Reset purelab
@@ -54,21 +55,20 @@ d36ad90 Update LAB.md
 59ef18a Update LAB_INSTRUCTIONS.md
 
 ```
+- The accompanying diagram of what my feature branch precisely and conceptually represents...
 
 # Step 5: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?   
-- This file communicates with the CircleCI and tells it how to configure their process to work with the project that is being used. This file can also store network preferences which allot the connection to take place and for both programs to be to on the same page with settings and networking. The .yml file is a language that can easily be translated to other languages. 
+- The .circleci/config.yml allows the user to create a new configuration or branch without changing anything to the   original configuration. By creating the new brach it allows the user to edit it and create new conect without changing hte roginal so others can do the same. It also allow the new braach to be tested for any code error.
 
 - What do the various sections on the config file do?  
-- There are orbs which are packages of comfiguration code. People are abe to share and create config files easier with this feature. 
-- Workflows use rules in order to keep jobs running properly. This feature allows everyone to be up to date on the process that is taking place. 
-- Lastly, job are a collection of doffernet processes that have the ability to run together as a unit. 
+- The various config files are used to set the parameters as well as initial setting for the programmer who is doing work on the program. It gives that perosn a baseline for what needs to be done what is allowed to be done. 
 
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
-- When a Ci build is sucessful it means that the code was passsed through the automated debugging process and is now compelte and free from errors. The code being tested will make sure it functions with the predefined tests that are set up. The debugging process makes sure that the code will run and that it will be sucessful. Even if the code functions correctly it will be sucessful even if the code doe now do what it was intended to do. 
+- When a CI build is successful that means the code was tested and the CI program found no build errors in the code. This now means that the build can be further expanded and used for other steps in the process. It can also remain the same if that program is alreay completed and no further steps need to be taken. 
 
 - If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?  
-- For this to be unsed in a project I would want to make sure that each person working on the project knows how the code will function so that errors will be minimal. I also this a beta stream and stable stream would be able to catch bugs before it is open for the public to use. An automated system would also allow things to be updated easier and quicker. 
+- The configration could be changed by adding more detiled to the report, ensuring that the data is accuarte and making sure the report is what is needed from the user or company requesting it.
 
 # Step 6: Merging the feature branch
 * The output of my git commit log
