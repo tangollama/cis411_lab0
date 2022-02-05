@@ -10,7 +10,12 @@ ___
 # Step 1: Fork this repository
 - The URL of my forked repository: https://github.com/ReidBurger/cis411_lab1_CI
 - The accompanying diagram of what my fork precisely and conceptually represents: 
+<<<<<<< HEAD
 ![Git Branches Diagram](assets/git_diagram.png)
+=======
+
+![Git Branches Diagram](../assets/git_diagram.png) 
+>>>>>>> labreport
 
 # Step 2: Clone your forked repository from the command line  
 - My local file directory is Desktop/cis411_lab1_CI
