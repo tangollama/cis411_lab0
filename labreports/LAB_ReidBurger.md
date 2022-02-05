@@ -10,12 +10,8 @@ ___
 # Step 1: Fork this repository
 - The URL of my forked repository: https://github.com/ReidBurger/cis411_lab1_CI
 - The accompanying diagram of what my fork precisely and conceptually represents: 
-<<<<<<< HEAD
-![Git Branches Diagram](assets/git_diagram.png)
-=======
 
 ![Git Branches Diagram](../assets/git_diagram.png) 
->>>>>>> labreport
 
 # Step 2: Clone your forked repository from the command line  
 - My local file directory is Desktop/cis411_lab1_CI
@@ -124,13 +120,20 @@ jobs:
 # Step 6: Merging the feature branch
 * The output of my git commit log
 ```
-4418a33 (HEAD -> labreport, origin/labreport) Questions Answered @trevordbunch
+b8e2034 (HEAD -> main) updated main @trevordbunch
+a7518ee (origin/labreport, labreport) Fixed Image Link @trevordbunch
+c833b2d Changed Image Link Directory @trevordbunch
+35c2053 I need help @trevordbunch
+bc78bd8 Please work @trevordbunch
+a5b6490 (origin/main, origin/HEAD) Push again @trevordbunch
+ef3cb29 Final Push @trevordbunch
+4418a33 Questions Answered @trevordbunch
 ef466dd Figured it out I think @trevordbunch
 7959f45 Terminal is gaslighting me @trevordbunch
 0ef3276 Added Name @trevordbunch
 f49c2ce Trying Again @trevordbunch
 0d5b1d9 First Try @trevordbunch
-7490dcb (origin/main, origin/HEAD, main) Add Links to Node in Instructions
+7490dcb Add Links to Node in Instructions
 ecaaa53 Update branch terminology
 c552213 Merge pull request #3 from hallienicholas/main
 78ede9f Corrected error
@@ -140,17 +143,10 @@ eafe253 Adjust submitting instructions
 47e83cd Add images to LabReport
 ec18770 Add Images
 dbf826a Answer Step 4
-a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
-1ead543 remove LAB.md
-8c38613 Initial commit of labreport with @tangollama
-dabceca Merge pull request #24 from tangollama/circleci
-a4096db Create README.md
-2f01bf4 Update LAB_INSTRUCTIONS.md
-347bd50 Update LAB_INSTRUCTIONS.md
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
-![CircleCI Success](../assets/circleci_success.png)
+![CircleCI Success](../assets/jobs_working.png)
 
 # Step 7: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
