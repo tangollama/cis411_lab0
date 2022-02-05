@@ -39,20 +39,44 @@ ___
 - The output of my git commit log
 
 ```
-Insert the logs here.
+3f11c9e (HEAD -> labreport, origin/labreport) Part 4 of the lab @trevordbunch
+7490dcb (upstream/main, origin/main, origin/HEAD, main) Add Links to Node in Instructions
+ecaaa53 Update branch terminology
+c552213 Merge pull request #3 from hallienicholas/main
+78ede9f Corrected error
+1fe415c Merge pull request #1 from trevordbunch/labreport
+13e571f Update Lab readme, instructions and templates
+eafe253 Adjust submitting instructions
+47e83cd Add images to LabReport
+ec18770 Add Images
+dbf826a Answer Step 4
+a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
+1ead543 remove LAB.md
+8c38613 Initial commit of labreport with @tangollama
 ```
 
 - The accompanying diagram of what my feature branch precisely and conceptually represents...
+![Branch Diagram](/assets/branch.png)  
+Credit: By Vincent Driessen, <https://nvie.com/posts/a-successful-git-branching-model/>
+
 
 # Step 5: Setup a Continuous Integration configuration
 
 - What is the .circleci/config.yml doing?  
 
+It is setting up the environment in which the project will operate, such as setting the tests, and installing what needs to be installed.
+
 - What do the various sections on the config file do?  
 
-- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
+The image section identifies the version of CircleCI that we are going to be using, the working directory sets up where we are going to be running the program. Steps identify a series of commands that are going to be run in the terminal. It also sets up variabble for cache in order for the program to run succesfully.
 
-- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?  
+- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?
+
+It means that your program passed all the tests and QA that were setup, meaning that the application is ready for deployment.
+
+- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+
+I would need to merge the code I just wrote to the main branch, and setup the hosting service that I am using in order to deploy the code.
 
 # Step 6: Merging the feature branch
 
@@ -71,7 +95,7 @@ a4096db Create README.md
 (END)
 ```
 
-- A screenshot of the _Jobs_ list in CircleCI
+- A screenshot of the _Jobs_ list in CircleCIs
 ![CircleCI Success](../assets/circleci_success.png)
 
 # Step 7: Submitting a Pull Request
