@@ -83,20 +83,24 @@ I would need to merge the code I just wrote to the main branch, and setup the ho
 - The output of my git commit log
 
 ```
-Trevors-MBP:cis411_lab0 trevorbunch$ git log --oneline
-dbf826a (HEAD -> labreport, origin/labreport) Answer Step 4
+7c7c2e4 (HEAD -> main, labreport) Completed step 5 of the lab
+3f11c9e (origin/labreport) Part 4 of the lab @trevordbunch
+7490dcb (upstream/main, origin/main, origin/HEAD) Add Links to Node in Instructions
+ecaaa53 Update branch terminology
+c552213 Merge pull request #3 from hallienicholas/main
+78ede9f Corrected error
+1fe415c Merge pull request #1 from trevordbunch/labreport
+13e571f Update Lab readme, instructions and templates
+eafe253 Adjust submitting instructions
+47e83cd Add images to LabReport
+ec18770 Add Images
+dbf826a Answer Step 4
 a9c1de6 Complete Step 1, 2 and 3 of LAB_TREVORDBUNCH
 1ead543 remove LAB.md
-8c38613 Initial commit of labreport with @tangollama
-dabceca (upstream/main, origin/main, origin/HEAD, main) Merge pull request #24 from tangollama/circleci
-a4096db Create README.md
-...
-44ce6ae Initial commit
-(END)
 ```
 
 - A screenshot of the _Jobs_ list in CircleCIs
-![CircleCI Success](../assets/circleci_success.png)
+![CircleCI Success](../assets/working.png)
 
 # Step 7: Submitting a Pull Request
 
