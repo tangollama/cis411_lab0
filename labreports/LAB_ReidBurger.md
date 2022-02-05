@@ -2,8 +2,8 @@
 ___
 **Course:** CIS 411, Spring 2021  
 **Instructor(s):** [Trevor Bunch](https://github.com/trevordbunch)  
-**Name:** Reid Burger
-**GitHub Handle:** @ReidBurger
+**Name:** Reid Burger 
+**GitHub Handle:** @ReidBurger  
 **Repository:** Your Forked Repository  
 ___
 
@@ -59,11 +59,53 @@ d36ad90 Update LAB.md
 - The accompanying diagram of what my feature branch precisely and conceptually represents...
 
 # Step 5: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?  
+```
+# Javascript Node CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+      - image: circleci/node:10.3
+      
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/mongo:3.4.4
 
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+
+      - run: yarn install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+        
+      # run tests!
+      - run: yarn test
+```
+
+- What is the .circleci/config.yml doing?  
+    - config.yml identifies which software it has to install (like yarn) and the type of vitual machine being used. 
 
 - What do the various sections on the config file do?  
-   
+    - The "docker" section shows which version of node we are using (node:10.3) 
+    - The "working_directory" section shows which repo circleci should work on, in this case, the directory located one step back in the tree.  
+    - The "steps" section is broken up into a few small sections. In summary, these sections are used to determine which software to install, in this case, yarn. 
 
 - When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
    
