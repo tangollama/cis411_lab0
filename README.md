@@ -16,9 +16,9 @@ This lab has four purposes:
 5. CircleCI account (STEP 5 in the Lab Instructions)
 
 ## 2. Lab Description
-Within this lab, you will need to fork a repository that has a simple node / graphql application.  After confirming that you can successfully run and perform simple actions within the applicaiton, then you will configuration CircleCI to perform a test that the application did not break with any changes in the commit before allowing the code into the repository.
+Within this lab, you will need to fork a repository that has a simple node / graphql application.  After confirming that you can successfully run and perform simple actions within the application, then you will configuration CircleCI to perform a test that the application did not break with any changes in the commit before allowing the code into the repository.
 
-Detailed instructions are [here](labreports/LAB_INSTRUCTIONS.md), and you are expected to compile your findings into a labreport following this [template](labreports/LAB_TEMPLATE.md).
+Detailed instructions are [here](LAB_INSTRUCTIONS.md), and you are expected to compile your findings into a labreport following this [template](labreports/LAB_Template.md).
 
 ## 3. Submissions
 You are expected to create a lab report as a markdown file under the labreports directory using the **LAB_[GITHUB Handle].md** naming convention in your forked repository.  After you have reviewed your work, then you should submit a `Pull Request` to this repository with your lab report and any accompanying images/files (e.g., required diagrams).  Add the `Pull Request` URL into the courseroom LMS (Canvas) for grading.
@@ -34,7 +34,7 @@ Node
 - Checking Node Versions [https://docs.npmjs.com/downloading-and-installing-node-js-and-npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)  
 
 Footnotes  
-[^1]: Fowler, M. C*ontinuous Integration.* Retrieved from https://martinfowler.com/articles/continuousIntegration.html
+[^1]: Fowler, M. *Continuous Integration.* Retrieved from https://martinfowler.com/articles/continuousIntegration.html
 
 CircleCi
 - [CircleCI Documentation](https://circleci.com/docs/)
