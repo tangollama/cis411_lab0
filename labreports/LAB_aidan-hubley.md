@@ -10,7 +10,7 @@ ___
 # Step 1: Fork this repository
 - The URL of my forked repository: https://github.com/aidan-hubley/cis411_lab1_CI
 - The accompanying diagram of what my fork precisely and conceptually represents:
-![Fork Diagram](/assets/fork_diagram.png)
+![Fork Diagram](../assets/fork_diagram.png)
 
 ___
 
@@ -86,13 +86,14 @@ ce1fcea circleci default config
 44ce6ae Initial commit
 ```
 - The accompanying diagram of what my feature branch precisely and conceptually represents
-![Branched Diagram](/assets/branched_diagram.png)
+![Branched Diagram](../assets/branched_diagram.png)
 
 ___
 
 # Step 5: Setup a Continuous Integration configuration
 1. What is the .circleci/config.yml doing?
    1. The config.yml file created a job for the circleci server to run.
+
 
 2. What do the various sections on the config file do?
    1. 'version:' Names the version of CircleCI pipeline process engine.
@@ -110,6 +111,7 @@ ___
 
 3. When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
    1. When the CI build successfully completes that practically allow code is executable-able, philosophically this means that you have reached the next step towards reaching your end goal.
+
 
 4. If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
    1. If this project was prepared for Continuous Delivery, I would add a patch notes / version tracker section to document and account for the continuous nature for Continuous Delivery.
@@ -171,11 +173,11 @@ ce1fcea circleci default config
 ```
 
 * A screenshot of the _Jobs_ list in CircleCI
-![CircleCI Success](../assets/circleci_success.png)
+![CircleCI Success](../assets/screenshot.png)
 
+___
 # Step 7: Submitting a Pull Request
 _Remember to reference at least one other student in the PR content via their GitHub handle._
-
 
 
 # Step 8: [EXTRA CREDIT] Augment the core project
