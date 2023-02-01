@@ -35,6 +35,7 @@ mutation {
   }
 }
 ```
+Use Ctrl+C or Cmd+C to exit out of the node applicaiton within the terminal.
 
 ## Step 4: Creating a feature branch
 [Branching and merging](https://www.atlassian.com/agile/software-development/branching) is a common tactic used in change management and feature development. We're going to use a branch (and eventually a merge) to build our lab report.
@@ -51,7 +52,7 @@ mutation {
 1. [Signup for CircleCI](https://circleci.com/signup/) with your GitHub account.
 2. Login to CircleCI and add your project to your account (ex. https://circleci.com/add-projects/gh/[YOUR_GITHUB_HANDLE]) by clicking _Add Project_.
 3. Follow the setup instructions, including creating the .circleci directory and adding the default config.yml file.
-![CircleCI setup](../assets/circleci_setup.png "CircleCI Setup")
+![CircleCI setup](assets/circleci_setup.png "CircleCI Setup")
 - Create a directory name .circleci in your project ```mkdir .circleci```.
 - Add a file to that directory named config.yml ```code .circleci/config.yml```.
 - Copy the content for the setup instructions into config.yml.

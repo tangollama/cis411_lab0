@@ -1,5 +1,5 @@
 # CIS 411 Lab 1: Continuous Integration
-This is the Requirements Lab for CIS 411: Systems Analysis and Design for [Messiah University](http://messiah.edu)
+This is the Continuous Integration for CIS 411: Systems Analysis and Design for [Messiah University](http://messiah.edu)
 
 This lab has four purposes:
 1. Within Systems Analysis and Design, you are going to need to articulate a DEVOPs process that includes **Continuous Integration (CI)**, practice of merging all developers' working copies to a shared mainline several times a day,[^1] and be able to describe what is conceptually happening behind the scenes.
