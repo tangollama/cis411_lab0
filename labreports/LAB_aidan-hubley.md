@@ -12,12 +12,16 @@ ___
 - The accompanying diagram of what my fork precisely and conceptually represents:
 ![Fork Diagram](/assets/fork_diagram.png)
 
+___
+
 # Step 2: Clone your forked repository from the command line  
 - My local file directory is C:\Users\aidan\Desktop\CIS411
 - The command to navigate to the directory when I open up the command line is:
 ```
 cd ..\..\Users\aidan\Desktop\CIS411\cis411_lab1_CI
 ```
+
+___
 
 # Step 3: Run the application locally
 - My GraphQL response from adding myself as an account on the test project
@@ -32,6 +36,8 @@ cd ..\..\Users\aidan\Desktop\CIS411\cis411_lab1_CI
   }
 }
 ```
+
+___
 
 # Step 4: Creating a feature branch
 - The output of my git commit log
@@ -79,20 +85,36 @@ ce1fcea circleci default config
 7362cd1 working
 44ce6ae Initial commit
 ```
-- The accompanying diagram of what my feature branch precisely and conceptually represents...
+- The accompanying diagram of what my feature branch precisely and conceptually represents
+![Branched Diagram](/assets/branched_diagram.png)
+
+___
 
 # Step 5: Setup a Continuous Integration configuration
-- What is the .circleci/config.yml doing?  
+1. What is the .circleci/config.yml doing?
+   1. The config.yml file created a job for the circleci server to run.
+
+2. What do the various sections on the config file do?
+   1. 'version:' Names the version of CircleCI pipeline process engine.
+   2. 'jobs:' Define a job to be invoked later in a workflow.
+      3. 'say-hello:' Is the first (and only) job created.
+      4. 'docker:' Specifies the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub
+   5. 'steps:' Adds steps to the job.
+      6. 'run:' Lists the functions to be run in the job.
+         7. 'name:' Names the function.
+         8. 'command:' When run, will print text in the output of a job.
+   9. 'workflows:' Define a workflow to invoke a job.
+      10. 'say-hello-workflow:' A new workflow.
+          11. 'jobs:' Lists the jobs to be invoked by the workflow.
 
 
-- What do the various sections on the config file do?  
-   
+3. When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
+   1. When the CI build successfully completes that practically allow code is executable-able, philosophically this means that you have reached the next step towards reaching your end goal.
 
-- When a CI build is successful, what does that philosophically and practically/precisely indicate about the build?  
-   
+4. If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?
+   1. If this project was prepared for Continuous Delivery, I would add a patch notes / version tracker section to document and account for the continuous nature for Continuous Delivery.
 
-- If you were to take the next step and ready this project for Continuous Delivery, what additional changes might you make in this configuration (conceptual, not code)?  
-   
+___
 
 # Step 6: Merging the feature branch
 * The output of my git commit log
