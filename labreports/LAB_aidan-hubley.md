@@ -189,6 +189,6 @@ PR reference in the report to one of the following:
 
 2. Configure the CircleCI config.yml to automatically build a Docker image of the project.
 
-   
+   - I attempted this aspect of the assignment many times, but found my understanding of docker and CircleCI to not be adequate. I am unsure if partial credit is something you would consider appropriate; because of the time and effort spent on this aspect I would be remiss not to ask. :)
 
 3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
