@@ -1,0 +1,69 @@
+# Use the latest 2.1 version of CircleCI pipeline process engine.
+# See: https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+
+# Define a job to be invoked later in a workflow.
+# See: https://circleci.com/docs/2.0/configuration-reference/#jobs
+jobs:
+  build:
+    docker:
+      - image: node:11.10.1
+      - image: circleci/postgres:11-alpine-ram
+        environment:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: example12
+      - image: redis:latest
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-
+
+      - run: npm install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      - run: npm ci:test
+
+      - remote_docker:
+          docker_layer_caching: true
+
+      - run:
+          - name: Install Docker Client
+            command: |
+              set -x
+              VER="18.06.3-ce"
+              curl -L -o /tmp/docker-$VER.tgz https://download.docker.com/linux/static/stable/x86_64/docker-$VER.tgz
+              tar -xz -C /tmp -f /tmp/docker-$VER.tgz
+              mv /tmp/docker/* /usr/bin
+
+      - run: npm ci:docker
+
+#  say-hello:
+#    # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
+#    # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
+#    docker:
+#      - image: cimg/base:stable
+#    # Add steps to the job
+#    # See: https://circleci.com/docs/2.0/configuration-reference/#steps
+#    steps:
+#      - checkout
+#      - run:
+#          name: "Say hello"
+#          command: "echo Hello, World!"
+
+# Invoke jobs via workflows
+# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+#workflows:
+#  say-hello-workflow:
+#    jobs:
+#      - say-hello
