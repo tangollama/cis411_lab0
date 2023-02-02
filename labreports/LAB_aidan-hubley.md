@@ -185,7 +185,10 @@ PR reference in the report to one of the following:
 
 1. Add one or more unit tests to the core assignment project. 
 
-- With help from ChatGPT and Ray Truex (rt1252) I was able to get 
+   - With help from ChatGPT and Ray Truex (rt1252) I was able to get run more unit tests.
 
 2. Configure the CircleCI config.yml to automatically build a Docker image of the project.
+
+   
+
 3. Configure an automatic deployment of the successful CircleCI build to an Amazon EC2 instance.
