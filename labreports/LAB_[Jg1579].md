@@ -116,7 +116,7 @@ Jonat@DESKTOP-0DNRIDL MINGW64 ~/Documents/GitHub/cis411_JG1579lab1_CI (labreport
 
 # Step 5: Setup a Continuous Integration configuration
 - What is the .circleci/config.yml doing?  
-
+It is running a program that will print hello world. However it will hold until it gets approval from me to do so. It will run the first step and then fetch data from the repo and then run the node. It like I said before will not run the final steps until it gets approval from me.
 
 The config file allows circleci to create testing environments using Ubuntu, and testing cases (called jobs) specific to your application.
 
